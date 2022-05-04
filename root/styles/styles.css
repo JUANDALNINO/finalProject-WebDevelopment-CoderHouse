@@ -1,0 +1,46 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+/* LOGO */
+.header__logo {
+    width: 250px;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+/*  MAIN */
+/* SECTION */
+.section__pic01 {
+    width: 250px;
+}
+
+.section__pic01 img {
+    width: 100%;
+}
+
+.section__pic02 {
+    width: 250px;
+}
+
+.section__pic02 img {
+    width: 100%;
+}
+
+.section__pic03 {
+    width: 250px;
+}
+
+.section__pic03 img {
+    width: 100%;
+}
+
+/* FOOTER */ 
