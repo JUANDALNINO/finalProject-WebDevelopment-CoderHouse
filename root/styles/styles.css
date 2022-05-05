@@ -9,12 +9,15 @@
 /*                        HOME                            */
 
 /* HEADER */
+.header__list {
+    list-style: none;
+}
+
 .header__item {
     display: list-item;
     text-align: center;
     margin: 20px;
 }
-
 
 .header__logo {
     width: 250px;
@@ -34,7 +37,7 @@
 /*  MAIN */
 /* SECTION */
 .section__pic01 {
-    width: 500px;
+    width: 100px;
 }
 
 .section__pic01 img {
@@ -42,7 +45,7 @@
 }
 
 .section__pic02 {
-    width: 500px;
+    width: 100px;
 }
 
 .section__pic02 img {
@@ -50,7 +53,7 @@
 }
 
 .section__pic03 {
-    width: 500px;
+    width: 100px;
 }
 
 .section__pic03 img {
