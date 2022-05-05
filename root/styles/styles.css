@@ -6,9 +6,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*                        HOME                            */
+/*               PAGE 01 HOME                       */
+/* BODY */
+body {
+    background-color: rgb(40, 148, 175);
+    width: 1024px;
+    margin-top: 4px;
+    padding: 4px;
+}
 
 /* HEADER */
+header {
+    padding-bottom: 100px;
+}
+
+.header__nav {
+    padding-left: 250px;
+}
+
 .header__list {
     list-style: none;
 }
@@ -17,47 +32,84 @@
     display: list-item;
     text-align: center;
     margin: 20px;
+    text-transform: uppercase;
 }
 
+/* HEADER__LOGO*/
 .header__logo {
-    width: 250px;
+    width: 180px;
 }
 
 .header__logo img {
     width: 100%;
 }
 
+/* HEADER__BOOKING*/
 .header__booking {
     width: 125px;
     height: 50px;
     text-align: center;
     padding: 15px;
-    background-color: rgb(140, 195, 226);
+    background-color: rgb(25, 70, 95);
+    margin-left: 1120px;
 }
+
+.header__booking a {
+    font-size: 18px;
+}
+
 /*  MAIN */
+
 /* SECTION */
+.section__principal {
+    color: aliceblue;
+    font-style: normal;
+    text-align: left;
+}
+
+/* PIC 01 */
 .section__pic01 {
-    width: 100px;
+    width: 370px;
+    margin: 50px;
 }
 
 .section__pic01 img {
     width: 100%;
 }
 
+.section__pic01 h4 {
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+/* PIC 02 */
 .section__pic02 {
-    width: 100px;
+    width: 370px;
+    margin: 50px;
 }
 
 .section__pic02 img {
     width: 100%;
 }
 
+.section__pic02 h4 {
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+/* PIC 03 */
 .section__pic03 {
-    width: 100px;
+    width: 370px;
+    margin: 50px;
 }
 
 .section__pic03 img {
     width: 100%;
+}
+
+.section__pic03 h4 {
+    margin-top: -50px;
+    margin-left: 25px;
 }
 
 /* FOOTER */ 
