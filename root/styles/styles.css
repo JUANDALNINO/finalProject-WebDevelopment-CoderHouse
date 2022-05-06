@@ -147,4 +147,32 @@ header {
     width: 100%;
 }
 
+/* GUEST PAGE - ACCOMMODATION 03*/
+.guest__accommodation {
+    width: 1000px;
+    margin: 100px;
+}
+
+.guest__accommodation h2 {
+    margin: 2px;
+    padding: 10px;
+}
+
+.guest__table {
+    margin: 35px;
+    padding: 1px;
+}
+
+.guest__text {
+    padding: 20px;
+    border: 10px;
+}
+
+.guest__text p {
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    width: 650px;
+}
+
 /* FOOTER */ 
