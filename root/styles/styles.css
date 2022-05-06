@@ -113,19 +113,38 @@ header {
 .second__accommodation {
     background-color: rgb(39, 212, 169);
     width: auto;
-    height: 890px;
+    height: auto;
 }
 
 .about__second {
     background-color: rgb(212, 180, 39);
     width: auto;
-    height: 350px;
+    height: 390px;
 }
 
 .about__second h2 {
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 150px;
     text-align: center;
     padding: 100px;
 }
+
+.text__about {
+    padding: 15px;
+    margin: 15px;
+    text-align: justify;
+    width: 600px;
+}
+
+/* ROOM LIST - ACCOMMODATION 02*/
+.rooms__list {
+    width: 750px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.rooms__list img {
+    width: 100%;
+}
+
 /* FOOTER */ 
