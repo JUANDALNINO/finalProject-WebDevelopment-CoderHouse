@@ -9,7 +9,9 @@
 /*               PAGE 01 HOME                       */
 /* BODY */
 body {
-    background-color: rgb(40, 148, 175);
+    background-image: url(/final-project/root/assets/Back-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1024px;
     margin-top: 4px;
     padding: 4px;
@@ -28,11 +30,13 @@ header {
     list-style: none;
 }
 
-.header__item {
+.header__item a{
     display: list-item;
     text-align: center;
     margin: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
 }
 
 /* HEADER__LOGO*/
@@ -45,13 +49,15 @@ header {
 }
 
 /* HEADER__BOOKING*/
-.header__booking {
+.header__booking a{
     width: 125px;
     height: 50px;
     text-align: center;
     padding: 15px;
     background-color: rgb(25, 70, 95);
-    margin-left: 1120px;
+    margin-left: 1170px;
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .header__booking a {
@@ -64,52 +70,22 @@ header {
 .section__principal {
     color: aliceblue;
     font-style: normal;
-    text-align: left;
 }
 
-/* PIC 01 */
-.section__pic01 {
-    width: 370px;
-    margin: 50px;
+/* PICS */
+.section__pic {
+    width: 310px;
+    margin: 10px;
+    float: left;
+    position: relative;
 }
 
-.section__pic01 img {
+.section__pic img {
     width: 100%;
 }
 
-.section__pic01 h4 {
+.section__pic h4 {
     margin-top: -50px;
     margin-left: 25px;
 }
-
-/* PIC 02 */
-.section__pic02 {
-    width: 370px;
-    margin: 50px;
-}
-
-.section__pic02 img {
-    width: 100%;
-}
-
-.section__pic02 h4 {
-    margin-top: -50px;
-    margin-left: 25px;
-}
-
-/* PIC 03 */
-.section__pic03 {
-    width: 370px;
-    margin: 50px;
-}
-
-.section__pic03 img {
-    width: 100%;
-}
-
-.section__pic03 h4 {
-    margin-top: -50px;
-    margin-left: 25px;
-}
-
 /* FOOTER */ 
