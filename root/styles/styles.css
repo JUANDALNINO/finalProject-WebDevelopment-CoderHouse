@@ -9,12 +9,32 @@
 /*               PAGE 01 HOME                       */
 /* BODY */
 body {
+    width: 1280px;
+    margin-top: 4px;
+    padding: 4px;
+}
+
+.body__home {
     background-image: url(/final-project/root/assets/Back-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1024px;
-    margin-top: 4px;
-    padding: 4px;
+    height: 890px;
+}
+
+.first__accommodation {
+    background-color: rgb(39, 99, 212);
+    width: auto;
+    height: 890px;
+}
+
+.accommodation__back {
+    padding: 20px;
+    margin: 20px;
+}
+
+.accommodation__back h3 {
+    text-align: center;
+    padding: 20px;
 }
 
 /* HEADER */
@@ -41,7 +61,8 @@ header {
 
 /* HEADER__LOGO*/
 .header__logo {
-    width: 180px;
+    width: 120px;
+    margin: 10px;
 }
 
 .header__logo img {
@@ -55,7 +76,6 @@ header {
     text-align: center;
     padding: 15px;
     background-color: rgb(25, 70, 95);
-    margin-left: 1170px;
     text-decoration: none;
     color: aliceblue;
 }
@@ -66,7 +86,7 @@ header {
 
 /*  MAIN */
 
-/* SECTION */
+/* SECTION HOME 01*/
 .section__principal {
     color: aliceblue;
     font-style: normal;
@@ -75,8 +95,8 @@ header {
 /* PICS */
 .section__pic {
     width: 310px;
-    margin: 10px;
-    float: left;
+    margin: 15px;
+    padding: 10px;
     position: relative;
 }
 
@@ -87,5 +107,25 @@ header {
 .section__pic h4 {
     margin-top: -50px;
     margin-left: 25px;
+}
+
+/* MAIN ACCOMMODATION 02 */
+.second__accommodation {
+    background-color: rgb(39, 212, 169);
+    width: auto;
+    height: 890px;
+}
+
+.about__second {
+    background-color: rgb(212, 180, 39);
+    width: auto;
+    height: 350px;
+}
+
+.about__second h2 {
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
 }
 /* FOOTER */ 
