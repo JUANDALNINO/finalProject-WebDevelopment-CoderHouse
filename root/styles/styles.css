@@ -15,7 +15,7 @@ body {
 }
 
 .body__home {
-    background-image: url(/final-project/root/assets/Back-01.jpg);
+    background-image: url(/root/assets/Back-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 890px;
