@@ -7,8 +7,6 @@
 }
 
 
-
-/*               PAGE 01 HOME                       */
 /* BODY */
 body {
     margin-top: 4px;
@@ -19,9 +17,10 @@ body {
     background-image: url(/root/assets/Back-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 890px;
+    height: 900px;
 }
 
+/* 2. Accommodation */
 .first__accommodation {
     background-color: rgb(39, 99, 212);
     width: auto;
@@ -42,12 +41,16 @@ body {
 
 /* HEADER */
 .header__home {
+    width: auto;
+    height: 150px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
 .header__nav {
-    display: flex;
     flex-direction: row;
 }
 
@@ -79,17 +82,18 @@ body {
 
 
 /* HEADER__BOOKING*/
-.header__booking a{
+.header__booking {
     width: 125px;
-    height: 50px;
-    text-align: center;
-    padding: 15px;
-    background-color: rgb(25, 70, 95);
-    text-decoration: none;
-    color: aliceblue;
+    height: 125px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.header__booking a {
+.header__booking a{
+    background-color: rgb(25, 70, 95);
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
     font-size: 18px;
 }
 
@@ -104,8 +108,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 /* PICS */
 .section__pic {
