@@ -326,6 +326,7 @@
 
 /* Main Booking 05 */
 .main__booking {
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -444,6 +445,56 @@
     height: 25px;
 }
 
+.request {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.request input {
+    width: 400px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.text__form {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text__form p {
+    width: 480px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.buttom__form {
+    width: auto;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttom__form input {
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #fa7d68;
+    border-style: none;
+    border-radius: 5px;
+}
 
 /* FOOTER */ 
 .footer {
