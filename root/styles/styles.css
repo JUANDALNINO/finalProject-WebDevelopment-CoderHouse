@@ -51,7 +51,7 @@
     height: 890px;
 }
 
-/* Gallery */
+/* 04. Gallery */
 .first__page__gallery {
     background-image: url(/root/assets/Atardecer.jpg);
     background-size: cover;
@@ -92,8 +92,6 @@
     color: aliceblue;
 }
 
-
-
 /* HEADER__LOGO*/
 .header__logo {
     width: 120px;
@@ -105,8 +103,6 @@
     width: 100%;
     padding: 5px;
 }
-
-
 
 /* HEADER__BOOKING*/
 .header__booking {
@@ -156,6 +152,7 @@
 }
 
 
+
 /* MAIN ACCOMMODATION 02 */
 .second__accommodation {
     background-color: rgb(255, 255, 255);
@@ -190,7 +187,6 @@
     width: 600px;
 }
 
-
 /* ROOM LIST - ACCOMMODATION 02*/
 .rooms__list {
     width: 750px;
@@ -201,7 +197,6 @@
 .rooms__list img {
     width: 100%;
 }
-
 
 /* GUEST PAGE - ACCOMMODATION - TABLE*/
 .guest__accommodation {
@@ -236,6 +231,7 @@
     text-align: justify;
     width: 650px;
 }
+
 
 
 /* Second page experience 03*/
@@ -292,14 +288,30 @@
 }
 
 .text__activities {
-        padding: 5px;
-        margin: 5px;
-        text-align: justify;
-        width: 650px;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    width: 650px;
 }
 
 
 
+/* Main Gallery 04 */
+.main__gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__gallery {
+    width: 850px;
+    margin: 20px;
+    padding: 25px;
+}
+
+.img__gallery img {
+    width: 100%;
+}
 
 /* FOOTER */ 
 
