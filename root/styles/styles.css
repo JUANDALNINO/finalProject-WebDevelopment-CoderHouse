@@ -51,6 +51,15 @@
     height: 890px;
 }
 
+/* Gallery */
+.first__page__gallery {
+    background-image: url(/root/assets/Atardecer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 890px;
+}
+
 
 /* HEADER */
 .header__home {
