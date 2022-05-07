@@ -60,6 +60,15 @@
     height: 890px;
 }
 
+/* 05. Booking */
+.first__page__booking {
+    background-image: url(/root/assets/Island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 490px;
+}
+
 
 /* HEADER */
 .header__home {
@@ -313,8 +322,50 @@
     width: 100%;
 }
 
-/* FOOTER */ 
 
+
+/* Main Booking 05 */
+.main__booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__booking {
+    width: 750px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__booking h2 {
+    height: 80px;
+    width: 480px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact__booking p {
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    width: 650px;
+}
+
+.form__booking {
+    width: 800px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */ 
 .footer {
     height: 80px;
     margin: 5px;
