@@ -144,27 +144,34 @@
 
 /* MAIN ACCOMMODATION 02 */
 .second__accommodation {
-    background-color: rgb(39, 212, 169);
+    background-color: rgb(255, 255, 255);
     width: auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about__second {
-    background-color: rgb(212, 180, 39);
     width: auto;
-    height: 390px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__second h2 {
-    width: 350px;
-    height: 150px;
+    width: 200px;
+    height: 110px;
+    margin: 20px;
     text-align: center;
-    padding: 100px;
+    font-size: 35px;
 }
 
 .text__about {
-    padding: 15px;
-    margin: 15px;
+    padding: 30px;
+    margin: 20px;
     text-align: justify;
     width: 600px;
 }
@@ -173,7 +180,7 @@
 /* ROOM LIST - ACCOMMODATION 02*/
 .rooms__list {
     width: 750px;
-    margin: 100px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -182,15 +189,21 @@
 }
 
 
-/* GUEST PAGE - ACCOMMODATION 03*/
+/* GUEST PAGE - ACCOMMODATION - TABLE*/
 .guest__accommodation {
     width: 1000px;
-    margin: 100px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .guest__accommodation h2 {
     margin: 2px;
     padding: 10px;
+    font-size: 35px;
 }
 
 .guest__table {
@@ -212,3 +225,25 @@
 
 
 /* FOOTER */ 
+
+.footer {
+    height: 80px;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer span {
+    padding: 8px;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.footer a {
+    padding: 1px;
+    margin: 1px;
+}
