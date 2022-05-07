@@ -397,17 +397,51 @@
     padding-left: 10px;
 }
 
-
-
-.eMail {
-    width: 200px;
-    height: 35px;
+.email__form {
+    width: 800x;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.eMail input {
+.email__form input {
     width: 300px;
     height: 25px;
     padding-left: 10px;
+}
+
+.checks__form {
+    height: 100px;
+    width: 780;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.check label {
+    width: 100px;
+    font-weight: bold;
+}
+
+.check input {
+    padding: 5px;
+    margin: 10px;
+    width: 130px;
+    height: 25px;
 }
 
 
