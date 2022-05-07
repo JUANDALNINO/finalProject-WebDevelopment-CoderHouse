@@ -8,10 +8,6 @@
 
 
 /* BODY */
-body {
-    margin-top: 4px;
-    padding: 4px;
-}
 
 .body__home {
     background-image: url(/root/assets/Back-01.jpg);
@@ -20,9 +16,15 @@ body {
     height: 900px;
 }
 
+.body__accommodation {
+    height: 900px;
+}
+
 /* 2. Accommodation */
-.first__accommodation {
-    background-color: rgb(39, 99, 212);
+.first__page__accommodation {
+    background-image: url(/root/assets/Back-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: auto;
     height: 890px;
 }
