@@ -22,7 +22,7 @@
 
 /* 2. Accommodation */
 .first__page__accommodation {
-    background-image: url(/root/assets/Back-01.jpg);
+    background-image: url(/root/assets/bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -30,13 +30,19 @@
 }
 
 .accommodation__back {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .accommodation__back h3 {
+    width: 300px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
 }
 
 
