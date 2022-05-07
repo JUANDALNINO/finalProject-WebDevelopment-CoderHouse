@@ -356,12 +356,58 @@
     width: 650px;
 }
 
+/* Form Booking */
 .form__booking {
     width: 800px;
     padding: 5px;
     margin: 5px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.names__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lastName {
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lastName input {
+    width: 300px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.firstName {
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.firstName input {
+    width: 300px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+
+
+.eMail {
+    width: 200px;
+    height: 35px;
+}
+
+.eMail input {
+    width: 300px;
+    height: 25px;
+    padding-left: 10px;
 }
 
 

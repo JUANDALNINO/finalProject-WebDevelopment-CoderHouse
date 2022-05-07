@@ -39,36 +39,40 @@
             </p>
         </div>
         <form class="form__booking">
-            <div>
-                <label for="lastName"></label>
-                <input type="text" name="lastName" id="lastName" placeholder="LAST NAME *" required>
-            </div><br>
-            <div>
-                <label for="firstName"></label>
-                <input type="text" name="firstName" id="firstName" placeholder="FIRST NAME *" required>
-            </div><br>
-            <div>
-                <label for="eMail"></label>
-                <input type="email" name="eMail" id="eMail" placeholder="E-MAIL *" required>
+            <div class="names__form">
+                <div class="lastName">
+                    <label for="lastName"></label>
+                    <input type="text" name="lastName" id="lastName" placeholder="LAST NAME *" required>
+                </div>
+                <div class="firstName">
+                    <label for="firstName"></label>
+                    <input type="text" name="firstName" id="firstName" placeholder="FIRST NAME *" required>
+                </div>
             </div>
-            <div><br>
+            <div class="email__form">
+                <div class="eMail">
+                    <label for="eMail"></label>
+                    <input type="email" name="eMail" id="eMail" placeholder="E-MAIL *" required>
+                </div>
+            </div>
+            <div class="checkIn">
                 <label for="checkIn">Check in</label><br>
                 <input type="date" name="checkIn" id="checkIn" required>
             </div><br>
-            <div>
+            <div class="checkOut">
                 <label for="checkOut">Check out</label><br>
                 <input type="date" name="checkOut" id="checkOut" required>
             </div><br>
-            <div>
+            <div class="reques">
                 <label for="request"></label>
                 <input type="text" name="request" id="request" placeholder="REQUEST *" required>
             </div>
-            <div>
+            <div class="text__form">
                 <span>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, sit sapiente qui, eligendi saepe error expedita ut assumenda molestias facilis asperiores voluptatum iusto, ea minus autem molestiae mollitia fugiat quae.
                 </span>
             </div>
-            <div>
+            <div class="buttom__form">
                 <input type="submit" value="SUBMIT">
             </div>
         </form>
