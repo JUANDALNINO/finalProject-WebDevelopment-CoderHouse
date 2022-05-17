@@ -10,7 +10,7 @@
 /* BODY */
 
 .body__home {
-    background-image: url(/root/assets/Back-01.jpg);
+    background-image: url(../assets/Back-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
@@ -19,7 +19,7 @@
 
 /* 2. Accommodation */
 .first__page__accommodation {
-    background-image: url(/root/assets/bridge.jpg);
+    background-image: url(../assets/bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -44,7 +44,7 @@
 
 /* 3. Experience */
 .first__page__experience {
-    background-image: url(/root/assets/experience-03.jpg);
+    background-image: url(../assets/experience-03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -53,7 +53,7 @@
 
 /* 04. Gallery */
 .first__page__gallery {
-    background-image: url(/root/assets/Atardecer.jpg);
+    background-image: url(../assets/Atardecer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -62,7 +62,7 @@
 
 /* 05. Booking */
 .first__page__booking {
-    background-image: url(/root/assets/Island.jpg);
+    background-image: url(../assets/island.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -529,3 +529,6 @@
     padding: 1px;
     margin: 1px;
 }
+
+
+/* MEDIA QUERIES */
