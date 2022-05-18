@@ -533,7 +533,7 @@
 
 
 /* MOBILE */
-@media (max-width: 767px) {
+@media (max-width: 870px) {
 
 /* HEADER */
 
@@ -579,5 +579,28 @@
 
     .text__about p {
         font-size: small;
+    }
+
+/* ROOM LIST - ACCOMMODATION 02*/
+    .rooms__list {
+        width: 350px;
+    }
+
+/* GUEST PAGE - ACCOMMODATION - TABLE*/
+    .guest__accommodation {
+        width: auto;
+    }
+
+    .guest__table {
+        font-size: smaller;
+    }
+
+    .guest__accommodation h2 {
+        font-size: 30px;
+    }
+
+    .guest__text p {
+        font-size: small;
+        width: 380px;
     }
 }
