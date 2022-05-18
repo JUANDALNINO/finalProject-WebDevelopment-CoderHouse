@@ -7,8 +7,69 @@
 }
 
 
+/* HEADER */
+.header__home {
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__nav {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__list {
+    list-style: none;
+}
+
+.header__item a{
+    display: list-item;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* HEADER__LOGO*/
+.header__logo {
+    width: 120px;
+    margin-left: 25px;
+}
+
+.header__logo img {
+    width: 100%;
+    padding: 5px;
+}
+
+/* HEADER__BOOKING*/
+.header__booking {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.header__booking a{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(25, 70, 95);
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 40% ;
+}
+
+
 /* BODY */
 
+/* 1. Home */
 .body__home {
     background-image: url(../assets/Back-01.jpg);
     background-size: cover;
@@ -70,70 +131,7 @@
 }
 
 
-/* HEADER */
-.header__home {
-    width: auto;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.header__nav {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.header__list {
-    list-style: none;
-}
-
-.header__item a{
-    display: list-item;
-    text-align: center;
-    margin: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-/* HEADER__LOGO*/
-.header__logo {
-    width: 120px;
-    margin-left: 25px;
-
-}
-
-.header__logo img {
-    width: 100%;
-    padding: 5px;
-}
-
-/* HEADER__BOOKING*/
-.header__booking {
-    width: 100px;
-    height: 100px;
-    display: flex;
-}
-
-.header__booking a{
-    width: 100%;
-    text-align: center;
-    background-color: rgb(25, 70, 95);
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 18px;
-    padding-top: 40% ;
-}
-
-
-
 /*  MAIN */
-
 /* SECTION HOME 01*/
 .section__principal {
     color: aliceblue;
@@ -532,3 +530,54 @@
 
 
 /* MEDIA QUERIES */
+
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+/* HEADER */
+
+/* HEADER__BOOKING*/
+    .header__booking {
+        display: none;
+    }
+
+/*  MAIN */
+/* SECTION HOME 01*/
+    .section__principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+/* 2. Accommodation */
+    .accommodation__back h3 {
+        font-size: 30px;
+    }
+
+
+/* MAIN ACCOMMODATION 02 */
+    .about__second {
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .about__second h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .text__about {
+        padding: 30px;
+        margin: 20px;
+        text-align: justify;
+        width: 380px;
+    }
+
+    .text__about p {
+        font-size: small;
+    }
+}
