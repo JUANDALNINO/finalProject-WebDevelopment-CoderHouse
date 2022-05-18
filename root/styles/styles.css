@@ -271,7 +271,7 @@
     height: 110px;
     margin: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .experience-video {
@@ -301,7 +301,7 @@
 }
 
 .activities__h2 h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .text__activities {
@@ -535,72 +535,104 @@
 /* MOBILE */
 @media (max-width: 870px) {
 
-/* HEADER */
+    /* HEADER */
+    /* HEADER__BOOKING*/
+        .header__booking {
+            display: none;
+        }
 
-/* HEADER__BOOKING*/
-    .header__booking {
-        display: none;
-    }
-
-/*  MAIN */
-/* SECTION HOME 01*/
-    .section__principal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-/* 2. Accommodation */
-    .accommodation__back h3 {
-        font-size: 30px;
-    }
+    /*  MAIN */
+    /* SECTION HOME 01*/
+        .section__principal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
 
-/* MAIN ACCOMMODATION 02 */
-    .about__second {
-        flex-direction: column;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
+    /* 2. Accommodation */
+        .accommodation__back h3 {
+            font-size: 30px;
+        }
 
-    .about__second h2 {
-        text-align: center;
-        font-size: 30px;
-        margin: 20px;
-    }
 
-    .text__about {
-        padding: 30px;
-        margin: 20px;
-        text-align: justify;
-        width: 380px;
-    }
+    /* MAIN ACCOMMODATION 02 */
+        .about__second {
+            flex-direction: column;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
 
-    .text__about p {
-        font-size: small;
-    }
+        .about__second h2 {
+            text-align: center;
+            font-size: 30px;
+            margin: 20px;
+        }
 
-/* ROOM LIST - ACCOMMODATION 02*/
-    .rooms__list {
-        width: 350px;
-    }
+        .text__about {
+            padding: 30px;
+            margin: 20px;
+            text-align: justify;
+            width: 380px;
+        }
 
-/* GUEST PAGE - ACCOMMODATION - TABLE*/
-    .guest__accommodation {
-        width: auto;
-    }
+        .text__about p {
+            font-size: small;
+        }
 
-    .guest__table {
-        font-size: smaller;
-    }
+    /* ROOM LIST - ACCOMMODATION 02*/
+        .rooms__list {
+            width: 350px;
+        }
 
-    .guest__accommodation h2 {
-        font-size: 30px;
-    }
+    /* GUEST PAGE - ACCOMMODATION - TABLE*/
+        .guest__accommodation {
+            width: auto;
+        }
 
-    .guest__text p {
-        font-size: small;
-        width: 380px;
-    }
+        .guest__table {
+            font-size: smaller;
+        }
+
+        .guest__accommodation h2 {
+            font-size: 30px;
+        }
+
+        .guest__text p {
+            font-size: small;
+            width: 380px;
+        }
+
+
+    /* Second page experience 03*/
+        .about__second__experience {
+            flex-direction: column;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        .about__second__experience h2 {
+            font-size: 30px;
+        }
+        .experience-video {
+            width: auto;
+        }
+
+        .activities__experience {
+            margin-top: 10px;
+        }
+
+        .activities__h2 h2 {
+            font-size: 30px;
+        }
+
+        .text__activities {
+            margin-top: 20px;
+            width: auto;
+        }
+
+        .text__activities p{
+            font-size: small;
+            width: 380px;
+        }
 }
