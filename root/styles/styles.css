@@ -355,7 +355,8 @@
     width: 480px;
     margin: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 25px;
 }
 
 .contact__booking p {
@@ -675,4 +676,25 @@
             margin: 10px;
             padding: 15px;
         }
+
+    
+    /* Main Booking 05 */
+        .contact__booking {
+            flex-direction: column;
+        }
+
+        .contact__booking h2 {
+            font-size: 30px;
+        }
+
+        .contact__booking p {
+            font-size: small;
+        }
+
+
+    /* Form Booking */
+    .text__form p {
+        width: 380px;
+        font-size: small;
+    }
 }
