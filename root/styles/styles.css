@@ -541,6 +541,38 @@
             display: none;
         }
 
+
+    /* BODY */
+    /* 1. Home */
+        .body__home {
+            height: auto;
+            background-position: center;
+        }
+
+    /* 2. Accommodation */
+        .first__page__accommodation {
+            height: auto;
+            background-position: center;
+        }
+
+    /* 3. Experience */
+        .first__page__experience {
+            height: auto;
+            background-position: center;
+        }
+
+    /* 04. Gallery */
+        .first__page__gallery {
+            height: auto;
+            background-position: center;
+        }
+
+    /* 05. Booking */
+        .first__page__booking {
+            height: auto;
+            background-position: center;
+        }
+
     /*  MAIN */
     /* SECTION HOME 01*/
         .section__principal {
@@ -634,5 +666,13 @@
         .text__activities p{
             font-size: small;
             width: 380px;
+        }
+
+
+    /* Main Gallery 04 */
+        .img__gallery {
+            width: 380px;
+            margin: 10px;
+            padding: 15px;
         }
 }
