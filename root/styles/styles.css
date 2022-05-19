@@ -1,7 +1,7 @@
 
 
 /*
-1. BASIC STYLES
+1. <------------------BASIC STYLES------------------>
 */
 /* RESET CSS */
 * {
@@ -14,81 +14,83 @@
 }
 
 /*
-2. LAYOUT AND CONTAINERS
+2. <------------------LAYOUT AND CONTAINERS------------------>
 */
 /* Home Page */
 #body__home {
     background-image: url(../assets/Back-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-areas:
-    "." "logo" "book"
-    "menuNav" "pic" "pic"
+    "header"
+    "pic" "pic"
     ;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5%;
 }
 
 /*
-3. MENU
+3. <------------------MENU------------------>
 */
-.header__nav {
-    margin-bottom: 30px;
-    grid-area: menuNav;
-}
-
 .header__list {
     list-style: none;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.header__item a{
+.header__item a {
     display: list-item;
-    text-align: center;
-    margin: 20px;
+    margin: 4%;
     text-transform: uppercase;
-    text-decoration: none;
     color: aliceblue;
 }
 
 
 /*
-4. ZONES AND DIVS
+4. <------------------ZONES AND DIVS------------------>
 */
 /* HEADER */
 .header {
     width: auto;
-    height: 20%;
+    height: auto;
+    grid-area: header;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* HEADER__LOGO*/
 .header__logo {
-    width: 120px;
-    margin-left: 25px;
-    grid-area: logo;
+    width: 12%;
 }
 
 .header__logo img {
     width: 100%;
-    padding: 5px;
 }
 
 /* HEADER__BOOKING*/
 .header__booking {
     width: 100px;
     height: 100px;
-    grid-area: book;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(25, 70, 95);
 }
 
-.header__booking a{
+.header__booking a {
     width: 100%;
     text-align: center;
-    background-color: rgb(25, 70, 95);
     color: aliceblue;
-    font-size: 18px;
-    padding-top: 40% ;
+    font-size: 1.125rem;
 }
 
 
