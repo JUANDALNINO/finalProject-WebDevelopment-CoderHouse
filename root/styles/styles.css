@@ -1,28 +1,42 @@
+
+
+/*
+1. BASIC STYLES
+*/
 /* RESET CSS */
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* HEADER */
-.header__home {
-    width: auto;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+/*
+2. LAYOUT AND CONTAINERS
+*/
+/* Home Page */
+#body__home {
+    background-image: url(../assets/Back-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    display: grid;
+    grid-template-areas:
+    "." "logo" "book"
+    "menuNav" "pic" "pic"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
 }
 
-
+/*
+3. MENU
+*/
 .header__nav {
     margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    grid-area: menuNav;
 }
 
 .header__list {
@@ -38,10 +52,21 @@
     color: aliceblue;
 }
 
+
+/*
+4. ZONES AND DIVS
+*/
+/* HEADER */
+.header {
+    width: auto;
+    height: 20%;
+}
+
 /* HEADER__LOGO*/
 .header__logo {
     width: 120px;
     margin-left: 25px;
+    grid-area: logo;
 }
 
 .header__logo img {
@@ -53,6 +78,7 @@
 .header__booking {
     width: 100px;
     height: 100px;
+    grid-area: book;
     display: flex;
 }
 
@@ -60,22 +86,16 @@
     width: 100%;
     text-align: center;
     background-color: rgb(25, 70, 95);
-    text-decoration: none;
     color: aliceblue;
     font-size: 18px;
     padding-top: 40% ;
 }
 
 
+
 /* BODY */
 
-/* 1. Home */
-.body__home {
-    background-image: url(../assets/Back-01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 900px;
-}
+
 
 
 /* 2. Accommodation */
@@ -530,9 +550,8 @@
 }
 
 
+
 /* MEDIA QUERIES */
-
-
 /* MOBILE */
 @media (max-width: 870px) {
 
