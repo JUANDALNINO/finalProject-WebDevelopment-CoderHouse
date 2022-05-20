@@ -1,5 +1,3 @@
-
-
 /*
 1. <------------------BASIC STYLES------------------>
 */
@@ -12,6 +10,8 @@
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /*
 2. <------------------LAYOUT AND CONTAINERS------------------>
@@ -33,8 +33,22 @@
     grid-gap: 5%;
 }
 
+
+/* Accommodation */
+#body__accommodation {
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "article1"
+    "image"
+    "table"
+    "footer"
+    ;
+}
+
+
 /*
-3. <------------------MENU------------------>
+3. <------------------MENU and FOOTER------------------>
 */
 .header__list {
     list-style: none;
@@ -43,6 +57,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    text-shadow: 1px 1px 2px rgb(66, 60, 60);
 }
 
 .header__item a {
@@ -52,6 +67,28 @@
     color: aliceblue;
 }
 
+/* FOOTER */ 
+.footer {
+    height: 30%;
+    width: auto;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    grid-area: footer;
+}
+
+.footer span {
+    padding: 1%;
+    margin: 1%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.footer a {
+    margin: 0.5%;
+}
 
 /*
 4. <------------------ZONES AND DIVS------------------>
@@ -61,10 +98,11 @@
     width: auto;
     height: auto;
     grid-area: header;
-    margin: 2%;
+    margin: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* HEADER__LOGO*/
@@ -84,6 +122,12 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgb(25, 70, 95);
+    opacity: 70%;
+}
+
+.header__booking:hover {
+    opacity: 100%;
+    background-color: rgb(14, 78, 112);
 }
 
 .header__booking a {
@@ -94,9 +138,35 @@
 }
 
 
+/*  MAIN HOME 01*/
+.section__principal {
+    color: aliceblue;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-/* BODY */
+/* PICS */
+.section__pic {
+    width: auto;
+    height: auto;
+    margin: 1%;
+}
 
+.section__pic img {
+    width: 100%;
+    border-radius: 2%;
+    margin: 1%;
+    box-shadow: 0px 10px 10px grey;
+}
+
+.section__pic h4 {
+    margin-top: -15%;
+    margin-left: 8%;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1.125rem;
+}
 
 
 
@@ -105,25 +175,125 @@
     background-image: url(../assets/bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 35%;
     width: auto;
-    height: 890px;
+    height: auto;
+    grid-area: title;
 }
 
 .accommodation__back {
-    padding: 10px;
-    margin: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .accommodation__back h3 {
-    width: 300px;
     text-align: center;
-    padding: 15px;
-    font-size: 50px;
+    font-size: 3.1rem;
     text-align: center;
     color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 10%;
 }
+
+/* MAIN ACCOMMODATION 02 */
+.second__accommodation {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__second {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: article1;
+}
+
+.about__second h2 {
+    width: 20%;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.text__about {
+    padding: 3%;
+    margin: 5%;
+    text-align: justify;
+    width: 45%;
+}
+
+/* ROOM LIST - ACCOMMODATION 02*/
+.rooms__list {
+    width: 75%;
+    grid-area: image;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.rooms__list img {
+    width: 100%;
+    border-radius: 2%;
+    margin: 1%;
+    box-shadow: 0px 10px 10px grey;
+}
+
+/* GUEST PAGE - ACCOMMODATION - TABLE*/
+.guest__accommodation {
+    width: auto;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: table;
+}
+
+.guest__accommodation h2 {
+    padding: 2%;
+    font-size: 2.1rem;
+}
+
+.guest__table {
+    margin: 2%;
+    padding: 0.5%;
+}
+
+.buttom__table {
+    width: 5%;
+    margin-bottom: 5%;
+}
+
+.buttom__table a {
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+    background-color: #fa7d68;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10%;
+}
+
+.guest__text {
+    padding: 2%;
+    border: 4%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.guest__text p {
+    text-align: justify;
+}
+
+
 
 /* 3. Experience */
 .first__page__experience {
@@ -151,127 +321,6 @@
     width: auto;
     height: 490px;
 }
-
-
-/*  MAIN */
-/* SECTION HOME 01*/
-.section__principal {
-    color: aliceblue;
-    font-style: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-/* PICS */
-.section__pic {
-    width: 400px;
-    margin: 15px;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-.section__pic img {
-    width: 100%;
-}
-
-.section__pic h4 {
-    margin-top: -50px;
-    margin-left: 25px;
-}
-
-
-
-/* MAIN ACCOMMODATION 02 */
-.second__accommodation {
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.about__second {
-    width: auto;
-    height: 340px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.about__second h2 {
-    width: 200px;
-    height: 110px;
-    margin: 20px;
-    text-align: center;
-    font-size: 35px;
-}
-
-.text__about {
-    padding: 30px;
-    margin: 20px;
-    text-align: justify;
-    width: 600px;
-}
-
-/* ROOM LIST - ACCOMMODATION 02*/
-.rooms__list {
-    width: 750px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.rooms__list img {
-    width: 100%;
-}
-
-/* GUEST PAGE - ACCOMMODATION - TABLE*/
-.guest__accommodation {
-    width: 1000px;
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.guest__accommodation h2 {
-    margin: 2px;
-    padding: 10px;
-    font-size: 35px;
-}
-
-.guest__table {
-    margin: 35px;
-    padding: 1px;
-}
-
-.buttom__table input {
-    width: 80px;
-    height: 35px;
-    font-weight: bold;
-    color: aliceblue;
-    background-color: #fa7d68;
-    border-style: none;
-    border-radius: 5px;
-}
-
-.guest__text {
-    padding: 20px;
-    border: 10px;
-}
-
-.guest__text p {
-    padding: 5px;
-    margin: 5px;
-    text-align: justify;
-    width: 650px;
-}
-
-
 
 /* Second page experience 03*/
 .second__experience {
@@ -528,194 +577,243 @@
     border-radius: 5px;
 }
 
-/* FOOTER */ 
-.footer {
-    height: 80px;
-    margin: 5px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer span {
-    padding: 8px;
-    margin: 8px;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-.footer a {
-    padding: 1px;
-    margin: 1px;
-}
 
 
 
-/* MEDIA QUERIES */
+/*<------------------MEDIA QUERIES------------------>*/
 /* MOBILE */
-@media (max-width: 870px) {
+@media only screen and (max-width: 480px) {
 
+    /*2. <----------LAYOUT AND CONTAINERS-------->*/
+        /* Home Page */
+        #body__home { 
+            height: auto;
+            width: auto;
+            margin-bottom: 8%;
+            background-position: center;
+            display: grid;
+            grid-template-areas:
+            "header"
+            "pic1"
+            "pic2"
+            "pic3"
+            ;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 1%;
+        }
+
+    /* 3. <--------------MENU and FOOTER----------------->*/
+        .header__list {
+            width: auto;
+        }
+
+        .footer {
+            margin-top: 8%;
+            padding: 2%;
+            justify-content: center;
+        }
+
+
+    /* 4. <---------------ZONES AND DIVS---------------->*/
     /* HEADER */
-    /* HEADER__BOOKING*/
-        .header__booking {
-            display: none;
+        .header {
+            grid-area: header;
+            display: flex;
+            flex-direction: row;
+            margin: 3%;
+            align-items: center;
         }
 
-
-    /* BODY */
-    /* 1. Home */
-        .body__home {
-            height: auto;
-            background-position: center;
+        /* HEADER__LOGO*/
+            .header__logo {
+                width: 25%;
         }
 
-    /* 2. Accommodation */
-        .first__page__accommodation {
-            height: auto;
-            background-position: center;
-        }
+        /* HEADER__BOOKING*/
+            .header__booking {
+                display: none;
+            }
 
-    /* 3. Experience */
-        .first__page__experience {
-            height: auto;
-            background-position: center;
-        }
 
-    /* 04. Gallery */
-        .first__page__gallery {
-            height: auto;
-            background-position: center;
-        }
-
-    /* 05. Booking */
-        .first__page__booking {
-            height: auto;
-            background-position: center;
-        }
-
-    /*  MAIN */
-    /* SECTION HOME 01*/
+        /*  MAIN HOME 01*/
         .section__principal {
+            flex-direction: column;
+        }
+
+        /* PICS */
+        .section__pic {
+            margin: 4%;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-
-    /* 2. Accommodation */
-        .accommodation__back h3 {
-            font-size: 30px;
+        .section__pic img {
+            width: 85%;
+            align-items: center;
+            margin-left: 8%;
         }
 
+        .section__pic h4 {
+            margin-top: -12%;
+            margin-left: 0%;
+        }
 
-    /* MAIN ACCOMMODATION 02 */
+        /* 2. Accommodation */
+        .first__page__accommodation {
+            background-position: center;
+        }
+
         .about__second {
             flex-direction: column;
-            margin-bottom: 50px;
-            margin-top: 50px;
         }
 
         .about__second h2 {
-            text-align: center;
-            font-size: 30px;
-            margin: 20px;
+            width: 75%;
+            margin-top: 15%;
         }
 
         .text__about {
-            padding: 30px;
-            margin: 20px;
-            text-align: justify;
-            width: 380px;
+            width: 70%;
+            margin-top: 10%;
+            margin-bottom: 20%;
         }
 
-        .text__about p {
-            font-size: small;
-        }
-
-    /* ROOM LIST - ACCOMMODATION 02*/
-        .rooms__list {
-            width: 350px;
-        }
-
-    /* GUEST PAGE - ACCOMMODATION - TABLE*/
-        .guest__accommodation {
-            width: auto;
-        }
-
-        .guest__table {
-            font-size: smaller;
+        .rooms__list img {
+            width: 85%;
+            align-items: center;
+            margin-left: 8%;
         }
 
         .guest__accommodation h2 {
-            font-size: 30px;
+            margin: 2%;
+            margin-top: 4%;
+            margin-bottom: 3%;
         }
 
-        .guest__text p {
+        .guest__table {
             font-size: small;
-            width: 380px;
         }
 
-
-    /* Second page experience 03*/
-        .about__second__experience {
-            flex-direction: column;
-            margin-bottom: 50px;
-            margin-top: 50px;
-        }
-
-        .about__second__experience h2 {
-            font-size: 30px;
-        }
-        .experience-video {
+        .buttom__table {
+            margin-top: 6%;
             width: auto;
         }
 
-        .activities__experience {
-            margin-top: 10px;
+        .guest__text {
+            margin-top: 12%;
+            width: 70%;
         }
 
-        .activities__h2 h2 {
-            font-size: 30px;
-        }
+}
 
-        .text__activities {
-            margin-top: 20px;
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    /*2. <----------LAYOUT AND CONTAINERS-------->*/
+        /* Home Page */
+        #body__home { 
+            height: auto;
             width: auto;
+            margin-bottom: 8%;
+            background-position: center;
+            display: grid;
+            grid-template-areas:
+            "header"
+            "pic1"
+            "pic2"
+            "pic3"
+            ;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 1%;
         }
 
-        .text__activities p{
-            font-size: small;
-            width: 380px;
-        }
-
-
-    /* Main Gallery 04 */
-        .img__gallery {
-            width: 380px;
-            margin: 10px;
-            padding: 15px;
-        }
-
-    
-    /* Main Booking 05 */
-        .contact__booking {
+        /* MAIN ACCOMMODATION 02 */
+        .about__second {
             flex-direction: column;
         }
 
-        .contact__booking h2 {
-            font-size: 30px;
+        .about__second h2 {
+            width: 75%;
+            margin-top: 7%;
         }
 
-        .contact__booking p {
-            font-size: small;
+        .text__about {
+            width: 70%;
+            margin-top: 5%;
+            margin-bottom: 8%;
+        }
+
+        .guest__accommodation h2 {
+            margin-top: 1%;
+        }
+
+        .buttom__table {
+            margin-top: 1%;
+            width: auto;
+        }
+
+        .guest__text {
+            margin-top: 4%;
+            width: 70%;
+        }
+
+    /* 3. <--------------MENU and FOOTER----------------->*/
+        .header__list {
+            width: auto;
+        }
+
+        .footer {
+            margin-top: 3%;
+            padding: 2%;
+            justify-content: start;
         }
 
 
-    /* Form Booking */
-    .text__form p {
-        width: 380px;
-        font-size: small;
-    }
+    /* 4. <---------------ZONES AND DIVS---------------->*/
+    /* HEADER */
+        .header {
+            grid-area: header;
+            display: flex;
+            flex-direction: row;
+            margin: 5%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* HEADER__LOGO*/
+            .header__logo {
+                width: 16%;
+        }
+
+        /* HEADER__BOOKING*/
+            .header__booking {
+                display: none;
+            }
+
+        /*  MAIN HOME 01*/
+        .section__principal {
+            flex-direction: column;
+        }
+
+        /* PICS */
+        .section__pic {
+            margin: 4%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section__pic img {
+            width: 75%;
+            align-items: center;
+            margin-left: 12%;
+        }
+
+        .section__pic h4 {
+            margin-top: -12%;
+            margin-left: 0%;
+            
+        }
 }
