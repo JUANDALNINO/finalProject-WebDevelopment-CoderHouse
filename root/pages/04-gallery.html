@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="/root/styles/styles.css">
     <title>Gallery</title>
 </head>
-<body class="body__gallery">
+<body id="body__gallery">
+
+    <!--Div for first page accommodation-->
     <div class="first__page__gallery">
         <!--Container header-->
-        <header class="header__home">    
+        <header class="header">    
             <div class="header__logo">
-                <a href="/root/index.html">
-                    <img src="/root/assets/logos/white-logo.png" alt="logo">
+                <a href="../index.html">
+                    <img src="../assets/logos/white-logo.png" alt="logo">
                 </a>
             </div>
+            <!--Container MENU Nav-->
+                <ul class="header__list">
+                    <li class="header__item"><a href="../index.html">Home</a></li>
+                    <li class="header__item"><a href="..//pages/02-accommodation.html">Accommodation</a></li>
+                    <li class="header__item"><a href="../pages/03-experience.html">Experience</a></li>
+                    <li class="header__item"><a href="../pages/04-gallery.html">Gallery</a></li>
+                    <li class="header__item"><a href="../pages/05-booking.html">Booking</a></li>
+                </ul>
+            <!--Header Book-->
             <div class="header__booking">
-                <a href="/root/pages/05-booking.html">BOOK</a>
+                <a href="../pages/05-booking.html">BOOK</a>
             </div>
         </header>
-        <!--Container Nav-->
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a href="/root/index.html">Home</a></li>
-                <li class="header__item"><a href="/root/pages/02-accommodation.html">Accommodation</a></li>
-                <li class="header__item"><a href="/root/pages/03-experience.html">Experience</a></li>
-                <li class="header__item"><a href="/root/pages/04-gallery.html">Gallery</a></li>
-                <li class="header__item"><a href="/root/pages/05-booking.html">Booking</a></li>
-            </ul>
-        </nav>
     </div>
+<!--main gallery-->
     <main class="main__gallery">
         <div class="img__gallery">
             <img src="/root/assets/04 Gallery/pexels-asad-photo-maldives-2549018.jpg" alt="img" width="919">
@@ -45,6 +47,7 @@
             <h3>Palaiochora</h3>
         </div>
     </main>
+
     <footer class="footer">
         <span>Follow us</span>
         <a href="https://www.instagram.com/" target="_blank"><img src="/root/assets/logos/Insta.png" alt="Instagram"></a>
