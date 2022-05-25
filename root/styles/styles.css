@@ -717,7 +717,29 @@
 
 
         /* 3. Experience */
+        .first__page__experience {
+            background-position: center;
+        }
+
+        .experience-video {
+            width: 85%;
+            height: 280px;
+        }
+
+        .about__second__2 {
+            flex-direction: column;
+        }
         
+        .about__second__2 h2 {
+            width: 75%;
+            margin-top: 15%;
+        }
+        
+        .text__about__2 {
+            width: 70%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
 
 }
 
@@ -740,36 +762,6 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             grid-gap: 1%;
-        }
-
-        /* MAIN ACCOMMODATION 02 */
-        .about__second {
-            flex-direction: column;
-        }
-
-        .about__second h2 {
-            width: 75%;
-            margin-top: 7%;
-        }
-
-        .text__about {
-            width: 70%;
-            margin-top: 5%;
-            margin-bottom: 8%;
-        }
-
-        .guest__accommodation h2 {
-            margin-top: 1%;
-        }
-
-        .buttom__table {
-            margin-top: 1%;
-            width: auto;
-        }
-
-        .guest__text {
-            margin-top: 4%;
-            width: 70%;
         }
 
 
@@ -833,7 +825,63 @@
         }
 
 
+
+        /* MAIN ACCOMMODATION 02 */
+        .about__second {
+            flex-direction: column;
+        }
+
+        .about__second h2 {
+            width: 75%;
+            margin-top: 7%;
+        }
+
+        .text__about {
+            width: 70%;
+            margin-top: 5%;
+            margin-bottom: 8%;
+        }
+
+        .guest__accommodation h2 {
+            margin-top: 1%;
+        }
+
+        .buttom__table {
+            margin-top: 1%;
+            width: auto;
+        }
+
+        .guest__text {
+            margin-top: 4%;
+            width: 70%;
+        }
+
+
+
+        /* 3. Experience */
+        .first__page__experience {
+            background-position: center;
+        }
+
+        .experience-video {
+            width: 85%;
+            height: 280px;
+        }
+
+        .about__second__2 {
+            flex-direction: column;
+        }
         
+        .about__second__2 h2 {
+            width: 75%;
+            margin-top: 15%;
+        }
+        
+        .text__about__2 {
+            width: 70%;
+            margin-top: 2%;
+            margin-bottom: 5%;
+        }
 
 
 }
