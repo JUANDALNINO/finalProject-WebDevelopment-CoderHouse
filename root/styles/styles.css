@@ -232,6 +232,7 @@
     padding-top: 10%;
 }
 
+
 /* MAIN ACCOMMODATION 02 */
 .second__accommodation {
     background-color: rgb(255, 255, 255);
@@ -307,6 +308,10 @@
     margin-bottom: 5%;
 }
 
+
+
+
+
 .buttom__table a {
     font-weight: bold;
     font-size: medium;
@@ -359,6 +364,12 @@
     grid-area: video;
     width: 65%;
     height: 500px;
+    transition: width 1s, height 1s;
+}
+
+.experience-video:hover {
+    width: 75%;
+    height: 700px;
 }
 
 .experience-video iframe {
