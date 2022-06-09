@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,eAAe;AACf,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,wBAAwB;CACxC;;ACRD,eAAe;AACf,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,8BAA8B;EAChD,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "main.scss",
+        "basicStyles/_reset.scss",
+        "layaouts/_layaouts.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

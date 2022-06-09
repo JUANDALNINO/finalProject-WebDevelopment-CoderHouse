@@ -1,0 +1,20 @@
+/* RESET CSS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Home Page */
+#body__home {
+  background-image: url(/root/assets//Back-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=main.css.map */
