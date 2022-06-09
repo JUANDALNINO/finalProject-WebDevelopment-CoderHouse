@@ -4,3 +4,17 @@
 
     //02. Layaouts:
     @import"./layaouts/layaouts";
+
+    //03. Menu and Footer:
+    @import"./menu-footer/menuFooter";
+
+    //04. Zones and Divs:
+    @import"./zones-Divs/zonesDivs";
+
+
+// Media Queries:
+    // 01. Mobile:
+    @import"./mediaQueries/mobileMediaQueries";
+
+    // 02. Tablet:
+    @import"./mediaQueries/tabletMediaQueries";

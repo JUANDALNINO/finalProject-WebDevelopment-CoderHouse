@@ -1,0 +1,26 @@
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 1023px) { 
+
+    /* HEADER__LOGO*/
+    .header__logo {
+        width: 20%;
+    }
+    /* HEADER__BOOKING*/
+    .header__booking {
+        display: none;
+    }
+
+//------------------------------------
+
+    /*  MAIN HOME 01*/
+    .main__home {
+        margin-top: 10%;
+    }
+
+    /* PICS */
+    .section__pic {
+        width: 85%;
+        margin: 1%;
+    }
+
+}
