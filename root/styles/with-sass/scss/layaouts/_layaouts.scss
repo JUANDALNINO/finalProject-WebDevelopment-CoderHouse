@@ -1,8 +1,19 @@
+/*LAYAOUTS*/
+
+/*Variables*/
+/*1. Image Background first pages*/
+    $background-size: cover;
+    $background-repeat: no-repeat;
+    $height: 100vh;
+    $width: 100vw;
+
+
+/*SCSS*/
 /* Home Page */
 #body__home {
     background-image: url(/root/assets//Back-01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    background-size: $background-size;
+    background-repeat: $background-repeat;
+    height: $height;
+    width: $width;
 }

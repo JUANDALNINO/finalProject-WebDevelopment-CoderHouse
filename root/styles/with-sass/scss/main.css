@@ -9,6 +9,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/*LAYAOUTS*/
+/*Variables*/
+/*1. Image Background first pages*/
+/*SCSS*/
 /* Home Page */
 #body__home {
   background-image: url(/root/assets//Back-01.jpg);
@@ -22,7 +26,6 @@
 .header {
   width: auto;
   height: auto;
-  grid-area: header;
   margin: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,6 +101,7 @@
   font-size: 1rem;
 }
 
+/*Variables*/
 /*  MAIN HOME 01*/
 .main__home {
   display: -webkit-box;
