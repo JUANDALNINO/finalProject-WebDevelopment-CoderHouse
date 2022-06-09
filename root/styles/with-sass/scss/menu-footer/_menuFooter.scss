@@ -7,18 +7,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+
+    /* HEADER__LOGO*/
+    .header__logo {
+        width: 12%;
+    }
     
-}
+    .header__logo img {
+        width: 100%;
+    }
 
-/* HEADER__LOGO*/
-.header__logo {
-    width: 12%;
-}
 
-.header__logo img {
-    width: 100%;
-}
 
 /* HEADER__BOOKING*/
 .header__booking {
