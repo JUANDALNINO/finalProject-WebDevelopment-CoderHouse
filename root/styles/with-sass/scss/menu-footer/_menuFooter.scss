@@ -1,3 +1,27 @@
+//Variables:
+    /*Box shadow 01*/
+    $box-shadow-one: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    /*Border radius = 100%*/
+    $border-radius-one: 100%;
+
+    /*Text shadow 01*/
+    $text-shadow-one: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+
+    /*Blur 01*/
+    $blur-filter-one: blur(8px);
+
+// Mixins:
+    /*Glass 01*/
+    @mixin glass-shadow($blur){
+        background: rgba(255, 255, 255, 0.30);
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        backdrop-filter: blur($blur);
+    }
+
+//-------------------------------------------------------------------------------------------------------
+
 /* HEADER */
 .header {
     width: auto;
@@ -17,8 +41,10 @@
     
     .header__logo img {
         width: 100%;
+        box-shadow: $box-shadow-one;
+        border-radius: $border-radius-one;
+        backdrop-filter: $blur-filter-one;
     }
-
 
 
 /* HEADER__BOOKING*/
@@ -29,7 +55,9 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: $box-shadow-one;
+    border-radius: $border-radius-one;
+    backdrop-filter: $blur-filter-one;
 }
 
 
@@ -39,9 +67,12 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    @include glass-shadow(8px);
+    border-radius: 2%;
 }
 
 .navbar a {
     color: white;
     font-size: 1rem;
+    text-shadow: $text-shadow-one;
 }
