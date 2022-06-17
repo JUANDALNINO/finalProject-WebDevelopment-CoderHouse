@@ -1,6 +1,6 @@
-
-
 /*Variables*/
+    /*Box shadow 01*/
+    $box-shadow-one: rgb(48, 48, 48) 0px 20px 30px -10px;
 
 /*  MAIN HOME 01*/
 .main__home {
@@ -8,21 +8,11 @@
     flex-direction: row;
     justify-content: space-around;
     color: aliceblue;
+}
 
-    /* PICS => con compilación
-    .section__pic {
-        width: 70%;
-        margin: 1%;
-        
-        .section__pic h4 {
-            margin-top: -15%;
-            margin-left: 8%;
-            text-shadow: 2px 2px 5px black;
-            font-size: 1.5rem;
-        }
-
-    }*/
-
+// Carousel:
+.carousel {
+    box-shadow: $box-shadow-one;
 }
 
 /* PICS*/

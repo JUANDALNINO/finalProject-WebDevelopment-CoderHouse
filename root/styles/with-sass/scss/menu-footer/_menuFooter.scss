@@ -1,13 +1,9 @@
 //Variables:
     /*Box shadow 01*/
-    $box-shadow-one: rgb(38, 57, 77) 0px 20px 30px -10px;
+    $box-shadow-one: #252525 0px 20px 30px -10px;
 
     /*Border radius = 100%*/
     $border-radius-one: 100%;
-
-    /*Text shadow 01*/
-    $text-shadow-one: 2px 7px 5px rgba(0,0,0,0.3), 
-    0px -4px 10px rgba(255,255,255,0.3);
 
     /*Blur 01*/
     $blur-filter-one: blur(8px);
@@ -16,7 +12,7 @@
     /*Glass 01*/
     @mixin glass-shadow($blur){
         background: rgba(255, 255, 255, 0.30);
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        box-shadow: #252525 0px 20px 30px -10px;
         backdrop-filter: blur($blur);
     }
 
@@ -36,7 +32,7 @@
 
     /* HEADER__LOGO*/
     .header__logo {
-        width: 15%;
+        width: 13%;
     }
     
     .header__logo img {
@@ -67,12 +63,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    @include glass-shadow(8px);
     border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    backdrop-filter: blur(0.9px);
 }
 
 .navbar a {
     color: white;
     font-size: 1rem;
-    text-shadow: $text-shadow-one;
+    text-shadow: 4px 4px 5px #252525;
 }
