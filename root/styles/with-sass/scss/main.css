@@ -21,7 +21,6 @@
 /*Box shadow 01*/
 /*Border radius = 100%*/
 /*Blur 01*/
-/*Glass 01*/
 /* HEADER */
 .header {
   width: auto;
@@ -41,23 +40,31 @@
 .header__logo img {
   width: 100%;
   box-shadow: #252525 0px 20px 30px -10px;
-  border-radius: 100%;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
+  border-radius: 100%;
+}
+
+.header__logo img:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 /* HEADER__BOOKING*/
 .header__booking {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  color: white;
   box-shadow: #252525 0px 20px 30px -10px;
-  border-radius: 100%;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
+  color: #252525;
+  border-radius: 100%;
+}
+
+.header__booking:hover {
+  color: white;
 }
 
 /*NAV BAR*/
@@ -66,16 +73,49 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  border-radius: 2%;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  -webkit-backdrop-filter: blur(0.9px);
-          backdrop-filter: blur(0.9px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  -webkit-backdrop-filter: blur(1.4px);
+          backdrop-filter: blur(1.4px);
+  border-radius: 12%;
 }
 
 .navbar a {
   color: white;
   font-size: 1rem;
   text-shadow: 4px 4px 5px #252525;
+}
+
+.footer__book, .footer__book--cancel, .footer__book--agre {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer__book--agre {
+  margin: 4%;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  box-shadow: #252525 0px 20px 30px -10px;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  flex-direction: column;
+}
+
+.footer__book--cancel {
+  margin: 4%;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  box-shadow: #252525 0px 20px 30px -10px;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  flex-direction: column;
 }
 
 /*Variables*/
