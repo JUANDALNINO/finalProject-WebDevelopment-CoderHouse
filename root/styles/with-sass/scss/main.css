@@ -11,186 +11,91 @@
 /*1. Image Background first pages*/
 /* Home Page */
 #body__home {
-  background-image: url(/root/assets//Back-01.jpg);
+  background-image: url(/root/assets/multimedia/images/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-}
-
-/*Box shadow 01*/
-/*Border radius = 100%*/
-/*Blur 01*/
-/* HEADER */
-.header {
-  width: auto;
-  height: auto;
-  margin: 3%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-/* HEADER__LOGO*/
-.header__logo {
-  width: 13%;
+#menu__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.header__logo img {
+.menu {
+  margin: 4.5em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: azure;
+  text-shadow: #111826 2px 2px 2px;
+}
+
+#menu__logo {
+  width: 10%;
+}
+
+#menu__logo img {
   width: 100%;
-  box-shadow: #252525 0px 20px 30px -10px;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  border-radius: 100%;
 }
 
-.header__logo img:hover {
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-/* HEADER__BOOKING*/
-.header__booking {
-  width: 140px;
-  height: 140px;
+.title__div {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  box-shadow: #252525 0px 20px 30px -10px;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  color: #252525;
-  border-radius: 100%;
-}
-
-.header__booking:hover {
-  color: white;
-}
-
-/*NAV BAR*/
-.navbar {
-  list-style: none;
-  display: flex;
   justify-content: center;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-  -webkit-backdrop-filter: blur(1.4px);
-          backdrop-filter: blur(1.4px);
-  border-radius: 12%;
 }
 
-.navbar a {
-  color: white;
-  font-size: 1rem;
-  text-shadow: 4px 4px 5px #252525;
-}
-
-.footer__book, .footer__book--cancel, .footer__book--agre {
-  margin-top: 1%;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.footer__book--agre {
-  margin: 4%;
-  width: 100px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  box-shadow: #252525 0px 20px 30px -10px;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  flex-direction: column;
-}
-
-.footer__book--cancel {
-  margin: 4%;
-  width: 100px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  box-shadow: #252525 0px 20px 30px -10px;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  flex-direction: column;
-}
-
-/*Variables*/
-/*Box shadow 01*/
-/*  MAIN HOME 01*/
-.main__home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  color: aliceblue;
-}
-
-.carousel {
-  box-shadow: rgb(48, 48, 48) 0px 20px 30px -10px;
-}
-
-/* PICS*/
-.section__pic {
-  width: 70%;
-  margin: 1%;
-}
-
-.section__pic h4 {
-  margin-top: -15%;
-  margin-left: 8%;
-  text-shadow: 2px 2px 5px black;
-  font-size: 1.5rem;
+.title {
+  color: #F2E6A7;
+  font-size: 6rem;
+  font-weight: normal;
+  letter-spacing: 4rem;
+  text-shadow: #111826 3px 5px 2px;
+  margin-top: 4rem;
 }
 
 @media only screen and (max-width: 480px) {
-  /* HEADER__LOGO*/
-  .header__logo {
-    width: 35%;
+  #body__home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  /* HEADER__BOOKING*/
-  .header__booking {
+  #none {
     display: none;
   }
 
-  /*  MAIN HOME 01*/
-  .main__home {
-    margin-top: 25%;
+  #menu__div {
+    display: none;
   }
 
-  /* PICS */
-  .section__pic {
-    width: 90%;
-    margin: 1%;
-  }
-
-  .section__pic h4 {
-    font-size: 1rem;
+  #title__div {
+    display: none;
   }
 }
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /* HEADER__LOGO*/
-  .header__logo {
-    width: 20%;
+  #body__home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  /* HEADER__BOOKING*/
-  .header__booking {
+  #none {
     display: none;
   }
 
-  /*  MAIN HOME 01*/
-  .main__home {
-    margin-top: 10%;
-  }
-
-  /* PICS */
-  .section__pic {
-    width: 85%;
-    margin: 1%;
+  #menu__div {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

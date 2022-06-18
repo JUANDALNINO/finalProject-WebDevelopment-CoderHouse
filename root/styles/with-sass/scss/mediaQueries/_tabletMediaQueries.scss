@@ -1,27 +1,42 @@
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
 
-    /* HEADER__LOGO*/
-    .header__logo {
-        width: 20%;
-    }
+    // /* HEADER__LOGO*/
+    // .header__logo {
+    //     width: 20%;
+    // }
 
-    /* HEADER__BOOKING*/
-    .header__booking {
-        display: none;
-    }
+    // /* HEADER__BOOKING*/
+    // .header__booking {
+    //     display: none;
+    // }
 
-    //------------------------------------
+    // //------------------------------------
 
-    /*  MAIN HOME 01*/
-    .main__home {
-        margin-top: 10%;
-    }
+    // /*  MAIN HOME 01*/
+    // .main__home {
+    //     margin-top: 10%;
+    // }
 
-    /* PICS */
-    .section__pic {
-        width: 85%;
-        margin: 1%;
-    }
+    // /* PICS */
+    // .section__pic {
+    //     width: 85%;
+    //     margin: 1%;
+    // }
+
+//New:
+#body__home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#none {
+    display: none;
+}
+
+#menu__div {
+    display: none;
+}
 
 }

@@ -1,129 +1,159 @@
-//Variables:
-/*Box shadow 01*/
-$box-shadow-one: #252525 0px 20px 30px -10px;
+// //Variables:
+// /*Box shadow 01*/
+// $box-shadow-one: #252525 0px 20px 30px -10px;
 
-/*Border radius = 100%*/
-$border-radius-one: 100%;
+// /*Border radius = 100%*/
+// $border-radius-one: 100%;
 
-/*Blur 01*/
-$blur-filter-one: blur(8px);
+// /*Blur 01*/
+// $blur-filter-one: blur(8px);
 
-// Mixin:
-//Border radius:
-@mixin border-radius($radius){
-    border-radius: $radius;
-}
+// // Mixin:
+// //Border radius:
+// @mixin border-radius($radius){
+//     border-radius: $radius;
+// }
 
 
-// Maps:
-// Flex-01:
-$flex-display: (
-    display: flex,
-);
+// // Maps:
+// // Flex-01:
+// $flex-display: (
+//     display: flex,
+// );
 
-//-------------------------------------------------------------------------------------------------------
+// //-------------------------------------------------------------------------------------------------------
 
-/* HEADER */
-.header {
-    width: auto;
-    height: auto;
-    margin: 3%;
-    display: map-get($flex-display, display);
+// /* HEADER */
+// .header {
+//     width: auto;
+//     height: auto;
+//     margin: 3%;
+//     display: map-get($flex-display, display);
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+
+// /* HEADER__LOGO*/
+// .header__logo {
+//     width: 13%;
+// }
+
+// .header__logo img {
+//     width: 100%;
+//     box-shadow: $box-shadow-one;
+//     backdrop-filter: $blur-filter-one;
+
+//     @include border-radius(100%);
+// }
+
+// .header__logo img:hover {
+//     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+// }
+
+
+// /* HEADER__BOOKING*/
+// .header__booking {
+//     width: 140px;
+//     height: 140px;
+//     display: map-get($flex-display, display);
+//     justify-content: center;
+//     flex-direction: column;
+//     box-shadow: $box-shadow-one;
+//     backdrop-filter: $blur-filter-one;
+//     color: #252525;
+
+//     @include border-radius(100%);
+// }
+
+// .header__booking:hover {
+//     color: white;
+// }
+
+
+// /*NAV BAR*/
+// .navbar {
+//     list-style: none;
+//     display: map-get($flex-display, display);
+//     justify-content: center;
+//     text-align: center;
+//     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+//     backdrop-filter: blur(1.4px);
+
+//     @include border-radius(12%);
+// }
+
+// .navbar a {
+//     color: white;
+//     font-size: 1rem;
+//     text-shadow: 4px 4px 5px #252525;
+// }
+
+
+// // Footer__book:-------------------------------------------------
+// // Extend:
+// .footer__book {
+//     margin-top: 1%;
+//     display: map-get($flex-display, display);
+//     justify-content: center;
+//     flex-direction: row;
+// }
+
+// .footer__book--agre {
+//     margin: 4%;
+//     width: 100px;
+//     height: 60px;
+//     display: map-get($flex-display, display);
+//     justify-content: center;
+//     color: white;
+//     box-shadow: $box-shadow-one;
+//     backdrop-filter: blur(8px);
+
+//     @extend .footer__book;
+//     flex-direction: column;
+// }
+
+// .footer__book--cancel {
+//     margin: 4%;
+//     width: 100px;
+//     height: 60px;
+//     display: map-get($flex-display, display);
+//     justify-content: center;
+//     color: white;
+//     box-shadow: $box-shadow-one;
+//     backdrop-filter: blur(8px);
+
+//     @extend .footer__book;
+//     flex-direction: column;
+// }
+
+
+
+// New
+// Menu:
+#menu__div {
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-
-/* HEADER__LOGO*/
-.header__logo {
-    width: 13%;
+.menu {
+    margin: 4.5em;
 }
 
-.header__logo img {
+.menu a {
+    text-decoration: none;
+    color: azure;
+    text-shadow: #111826 2px 2px 2px;
+}
+
+// Menu logo =>
+#menu__logo {
+    width: 10%;
+}
+
+#menu__logo img {
     width: 100%;
-    box-shadow: $box-shadow-one;
-    backdrop-filter: $blur-filter-one;
-
-    @include border-radius(100%);
-}
-
-.header__logo img:hover {
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-
-/* HEADER__BOOKING*/
-.header__booking {
-    width: 140px;
-    height: 140px;
-    display: map-get($flex-display, display);
-    justify-content: center;
-    flex-direction: column;
-    box-shadow: $box-shadow-one;
-    backdrop-filter: $blur-filter-one;
-    color: #252525;
-
-    @include border-radius(100%);
-}
-
-.header__booking:hover {
-    color: white;
-}
-
-
-/*NAV BAR*/
-.navbar {
-    list-style: none;
-    display: map-get($flex-display, display);
-    justify-content: center;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-    backdrop-filter: blur(1.4px);
-
-    @include border-radius(12%);
-}
-
-.navbar a {
-    color: white;
-    font-size: 1rem;
-    text-shadow: 4px 4px 5px #252525;
-}
-
-
-// Footer__book:-------------------------------------------------
-// Extend:
-.footer__book {
-    margin-top: 1%;
-    display: map-get($flex-display, display);
-    justify-content: center;
-    flex-direction: row;
-}
-
-.footer__book--agre {
-    margin: 4%;
-    width: 100px;
-    height: 60px;
-    display: map-get($flex-display, display);
-    justify-content: center;
-    color: white;
-    box-shadow: $box-shadow-one;
-    backdrop-filter: blur(8px);
-
-    @extend .footer__book;
-    flex-direction: column;
-}
-
-.footer__book--cancel {
-    margin: 4%;
-    width: 100px;
-    height: 60px;
-    display: map-get($flex-display, display);
-    justify-content: center;
-    color: white;
-    box-shadow: $box-shadow-one;
-    backdrop-filter: blur(8px);
-
-    @extend .footer__book;
-    flex-direction: column;
 }

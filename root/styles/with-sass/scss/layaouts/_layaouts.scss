@@ -7,12 +7,19 @@
 
 //----------------------------------------------------------------------------------------------------
 
+
 /* Home Page */
+
 #body__home {
-    background-image: url(/root/assets//Back-01.jpg);
+    background-image: url(/root/assets/multimedia/images/home.jpg);
     background-size: $background-size;
     background-repeat: $background-repeat;
     height: $height;
     width: $width;
-}
 
+    //Grid:
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
