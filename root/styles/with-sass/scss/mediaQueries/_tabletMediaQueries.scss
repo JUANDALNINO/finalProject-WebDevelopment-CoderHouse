@@ -1,19 +1,25 @@
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
 
-    /* HEADER__LOGO*/
+    // HEADER__LOGO
     .header__logo {
         width: 20%;
     }
 
-    /* HEADER__BOOKING*/
+    // HEADER__BOOKING
     .header__booking {
         display: none;
     }
 
-    //------------------------------------
+    // FOOTER
+    .footer {
+        margin-top: 3%;
+        padding: 2%;
+        justify-content: start;
+    }
 
-    /*  MAIN HOME 01*/
+    //------------------------------------
+    //  01. HOME
     .main__home {
         margin-top: 10%;
     }
@@ -24,4 +30,91 @@
         margin: 1%;
     }
 
+
+
+    //------------------------------------
+    //  02. ACCOMMODATION
+    .first__page__accommodation {
+        background-position: center;
+    }
+
+    .accommodation__back h3 {
+        font-size: 2.4rem;
+    }
+
+    .about__second {
+        flex-direction: column;
+    }
+
+    .about__second h2 {
+        width: 75%;
+        margin-top: 7%;
+    }
+
+    .text__about {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+
+    .guest__accommodation h2 {
+        margin-top: 1%;
+    }
+
+
+
+    // 03. EXPERIENCE
+    .experience-video {
+        width: 85%;
+        height: 350px;
+    }
+
+    .about__second__2 {
+        flex-direction: column;
+    }
+    
+    .about__second__2 h2 {
+        width: 75%;
+        margin-top: 8%;
+    }
+    
+    .text__about__2 {
+        width: 85%;
+        margin-top: 1%;
+    }
+
+
+
+    // 04. GALLERY
+    .first__page__gallery {
+        background-position: center;
+    }
+
+    .main__gallery {
+        margin-bottom: 5%;
+    }
+
+    .img__gallery {
+        width: 85%;
+    }
+
+
+
+    // 05. BOOKING
+    .contact__booking h2 {
+        width: 40%;
+        margin: 2%;
+    }
+
+    .contact__booking p {
+        width: 40%;
+    }
+
+    .email__form {
+        width: 60%;
+    }
+
+    .check input {
+        width: 80%;
+    }
 }

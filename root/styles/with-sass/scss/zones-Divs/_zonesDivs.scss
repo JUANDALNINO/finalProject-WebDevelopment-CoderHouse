@@ -168,3 +168,221 @@
 .guest__text p {
     text-align: justify;
 }
+
+
+
+// 03. Experience
+/* MAIN EXPERIENCE 03 */
+.first__page__experience {
+    background-image: url(/assets/experience-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35%;
+    width: auto;
+    height: auto;
+}
+
+/* Second page experience 03*/
+.second__experience {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 500px;
+}
+
+.experience-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    margin: 1%;
+    box-shadow: 0px 10px 10px grey;
+}
+
+.about__second__2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__second__2 h2 {
+    width: 20%;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.text__about__2 {
+    padding: 3%;
+    margin: 5%;
+    text-align: justify;
+    width: 45%;
+}
+
+
+
+// 04. Gallery
+.first__page__gallery {
+    background-image: url(/assets/Atardecer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35%;
+    width: auto;
+    height: auto;
+}
+
+/* Main Gallery 04 */
+.main__gallery {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.img__gallery {
+    width: 65%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.img__gallery img {
+    width: 100%;
+    border-radius: 2%;
+    margin: 1%;
+    box-shadow: 0px 10px 10px grey;
+}
+
+.img__gallery h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1%;
+}
+
+
+
+// 05. Booking
+.first__page__booking {
+    background-image: url(/assets/island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35%;
+    width: auto;
+    height: auto;
+    grid-area: title;
+}
+
+/* Main Booking 05 */
+.main__booking {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact__booking {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+.contact__booking h2 {
+    width: 30%;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.contact__booking p {
+    text-align: justify;
+    width: 25%;
+}
+
+.form__booking {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.names__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.email__form {
+    justify-content: center;
+    margin: 1%;
+    margin-bottom: 2%;
+    width: 60%;
+}
+
+.checks__form {
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.check label {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.check input {
+    padding: 2%;
+    margin: 6%;
+    width: 70%;
+    height: 40%;
+}
+
+.text__form {
+    width: auto;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.text__form p {
+    width: 480px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    color: rgba(28,86,102,0.5);
+}

@@ -17,8 +17,33 @@
 }
 
 
+
 // 02. Accommodation
 #body__accommodation {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// 03. Experience
+#body__experience {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// 04. Gallery
+#body__gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// 05. Booking
+#body__booking {
     display: flex;
     flex-direction: column;
 }
