@@ -127,3 +127,26 @@ $flex-display: (
     @extend .footer__book;
     flex-direction: column;
 }
+
+
+/* FOOTER */ 
+.footer {
+    height: 30%;
+    width: auto;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer span {
+    padding: 1%;
+    margin: 1%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.footer a {
+    margin: 0.5%;
+}

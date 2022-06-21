@@ -7,7 +7,7 @@
 
 //----------------------------------------------------------------------------------------------------
 
-/* Home Page */
+// 01 Home Page
 #body__home {
     background-image: url(/assets/Back-01.jpg);
     background-size: $background-size;
@@ -16,3 +16,9 @@
     width: $width;
 }
 
+
+// 02. Accommodation
+#body__accommodation {
+    display: flex;
+    flex-direction: column;
+}

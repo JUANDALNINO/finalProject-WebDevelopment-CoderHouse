@@ -9,13 +9,17 @@
 }
 
 /*1. Image Background first pages*/
-/* Home Page */
 #body__home {
   background-image: url(/assets/Back-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+}
+
+#body__accommodation {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Box shadow 01*/
@@ -118,6 +122,28 @@
   flex-direction: column;
 }
 
+/* FOOTER */
+.footer {
+  height: 30%;
+  width: auto;
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.footer span {
+  padding: 1%;
+  margin: 1%;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.footer a {
+  margin: 0.5%;
+}
+
 /*Variables*/
 /*Box shadow 01*/
 /*  MAIN HOME 01*/
@@ -143,6 +169,142 @@
   margin-left: 8%;
   text-shadow: 2px 2px 5px black;
   font-size: 1.5rem;
+}
+
+.first__page__accommodation {
+  background-image: url(/assets/bridge.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 35%;
+  width: auto;
+  height: auto;
+}
+
+.accommodation__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accommodation__back h3 {
+  text-align: center;
+  font-size: 3.1rem;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px black;
+  padding-top: 10%;
+}
+
+/* MAIN ACCOMMODATION 02 */
+.second__accommodation {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__second {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__second h2 {
+  width: 20%;
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+.text__about {
+  padding: 3%;
+  margin: 5%;
+  text-align: justify;
+  width: 45%;
+}
+
+/* ROOM LIST - ACCOMMODATION 02*/
+.rooms__list {
+  width: 75%;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+/* PICS */
+.accommodation__h4 {
+  font-size: 1.5rem;
+  color: rgb(48, 45, 45);
+  margin-top: 3%;
+  margin-right: 5%;
+  text-align: right;
+}
+
+/* GUEST PAGE - ACCOMMODATION - TABLE*/
+.guest__accommodation {
+  width: auto;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.guest__accommodation h2 {
+  font-size: 2.1rem;
+}
+
+.container-rooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.form-select {
+  width: 30%;
+  margin: 2%;
+}
+
+.container-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 2%;
+  margin-bottom: 3%;
+}
+
+.buttom__table {
+  width: 5%;
+  margin-bottom: 3%;
+}
+
+.buttom__table a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: aliceblue;
+  background-color: #fa7d68;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10%;
+}
+
+.guest__text {
+  padding: 2%;
+  border: 4%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  opacity: 75%;
+}
+
+.guest__text p {
+  text-align: justify;
 }
 
 @media only screen and (max-width: 480px) {
