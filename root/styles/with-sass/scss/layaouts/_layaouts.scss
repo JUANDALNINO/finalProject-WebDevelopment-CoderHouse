@@ -26,3 +26,7 @@
 
 
 // About
+#body__about {
+    display: flex;
+    flex-direction: column;
+}

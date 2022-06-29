@@ -22,6 +22,11 @@
   align-items: center;
 }
 
+#body__about {
+  display: flex;
+  flex-direction: column;
+}
+
 #menu__div {
   display: flex;
   flex-direction: row;
@@ -49,7 +54,12 @@
 }
 
 #menu__divAbout {
-  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
 }
 
 #title__div {
@@ -68,12 +78,60 @@
   margin-top: 23rem;
 }
 
+#fistPage__about {
+  width: auto;
+  height: 90vh;
+}
+
 #myVideo {
-  position: fixed;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 0;
   right: 0;
+  top: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  z-index: -1;
+}
+
+#secondPage__about {
+  color: aliceblue;
+  background-color: #000000;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #F2E6A7;
+  margin-bottom: 6%;
+}
+
+.shortText {
+  width: 45%;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 8.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer i {
+  padding: 2%;
 }
 
 /* TABLET *//*# sourceMappingURL=main.css.map */
