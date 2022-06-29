@@ -31,6 +31,7 @@
 
 .menu {
   margin: 4.5em;
+  width: 3em;
 }
 
 .menu a {
@@ -47,51 +48,32 @@
   width: 100%;
 }
 
+#menu__divAbout {
+  display: block;
+}
+
 #title__div {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#title__div h1 {
+#title {
   color: #F2E6A7;
-  font-size: 6rem;
+  font-size: 4em;
   font-weight: normal;
   letter-spacing: 4rem;
   text-shadow: #111826 3px 5px 2px;
-  margin-top: 22rem;
+  margin-left: 4.5rem;
+  margin-top: 23rem;
 }
 
-@media only screen and (max-width: 480px) {
-  #body__home {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  #none {
-    display: none;
-  }
-
-  #menu__div {
-    display: none;
-  }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
-/* TABLET */
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  #body__home {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 
-  #none {
-    display: none;
-  }
-
-  #menu__div {
-    display: none;
-  }
-}/*# sourceMappingURL=main.css.map */
+/* TABLET *//*# sourceMappingURL=main.css.map */

@@ -23,36 +23,37 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!--Styles - Sass-->
-    <link rel="stylesheet" href="./root/styles/with-sass/scss/main.css">
+    <link rel="stylesheet" href="/root/styles/with-sass/scss/main.css">
 
 </head>
 
-<body class="container-fluid" id="body__home">
-        <!--Title-->
-        <div id="title__div">
-            <h1 id="title">NATURE</h1>
+<body class="container-fluid" id="body__about">
+    <!--Menu-->
+    <div id="menu__divAbout">
+        <div class="menu menu-btn">
+            <a href="/index.html">HOME</a>
         </div>
+        <div class="menu">
+            <a href="./root/newPages/about.html">ABOUT</a>
+        </div>
+        <div id="menu__logo">
+            <a href="#">
+                <img src="/root/assets/logos/white-logo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a href="">SERVICES</a>
+        </div>
+        <div class="menu">
+            <a href="">CONTACT</a>
+        </div>
+    </div>
 
-        <!--Menu-->
-        <div id="menu__div">
-            <div class="menu menu-btn">
-                <a href="/index.html">HOME</a>
-            </div>
-            <div class="menu">
-                <a href="./root/newPages/about.html">ABOUT</a>
-            </div>
-            <div id="menu__logo">
-                <a href="#">
-                    <img src="./root/assets/logos/white-logo.svg" alt="logo">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="">SERVICES</a>
-            </div>
-            <div class="menu">
-                <a href="">CONTACT</a>
-            </div>
-        </div>
+        <!--Video Background-->
+        <video autoplay muted loop id="myVideo">
+            <source src="/root/assets/multimedia/videos/about.mp4" type="video/mp4">
+        </video>
+
 </body>
 
 </html>
