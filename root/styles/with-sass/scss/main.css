@@ -9,7 +9,6 @@
 }
 
 /*1. Image Background first pages*/
-/* Home Page */
 #body__home {
   background-image: url(/root/assets/multimedia/images/home.jpg);
   background-size: cover;
@@ -25,6 +24,10 @@
 #body__about {
   display: flex;
   flex-direction: column;
+}
+
+#body__services {
+  background-color: black;
 }
 
 #menu__div {
@@ -46,6 +49,10 @@
 }
 
 #menu__logo {
+  opacity: 70%;
+}
+
+#menu__logo {
   width: 10%;
 }
 
@@ -60,6 +67,26 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+}
+
+.footer {
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer a {
+  padding: 2%;
+}
+
+.footer i {
+  color: aliceblue;
+}
+
+.icon:hover {
+  color: rgb(202, 102, 44);
 }
 
 #title__div {
@@ -123,15 +150,12 @@
   text-align: center;
 }
 
-.footer {
-  padding-top: 8.5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer i {
-  padding: 2%;
+#fistPage__services {
+  background-image: url(/root/assets/multimedia/images/servicesOne.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* TABLET *//*# sourceMappingURL=main.css.map */

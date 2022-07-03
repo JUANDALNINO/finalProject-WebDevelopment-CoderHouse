@@ -1,5 +1,4 @@
-// Home
-// Title:
+// Home -------------------------------------------------------------------------------------
 #title__div {
     display: flex;
     flex-direction: row;
@@ -18,7 +17,7 @@
 
 
 
-// About
+// About -------------------------------------------------------------------------------------
 #fistPage__about{
     width: auto;
     height: 90vh;
@@ -66,13 +65,12 @@
 }
 
 
-.footer {
-    padding-top: 8.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.footer i {
-    padding: 2%;
+// Services -------------------------------------------------------------------------------------
+#fistPage__services {
+    background-image: url(/root/assets/multimedia/images/servicesOne.jpg);
+    background-size: $background-size;
+    background-repeat: $background-repeat;
+    height: $height;
+    width: $width;
 }
