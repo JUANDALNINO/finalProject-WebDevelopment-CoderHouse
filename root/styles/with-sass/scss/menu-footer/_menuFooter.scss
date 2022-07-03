@@ -65,3 +65,11 @@
 .icon:hover {
     color: rgb(202, 102, 44);
 }
+
+
+.footerServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
