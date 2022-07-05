@@ -55,7 +55,7 @@
 }
 
 .footer a {
-    padding: 2%;
+    padding: 25px;
 }
 
 .footer i {
@@ -67,9 +67,31 @@
 }
 
 
+
+// Services -------------------------------------------------------------------------------------
+// Menu
+#menu__divServices {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// Footer
 .footerServices {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 35%;
+}
+
+.footerServices a {
+    padding: 25px;
+}
+
+.footerServices i {
+    color: aliceblue;
 }

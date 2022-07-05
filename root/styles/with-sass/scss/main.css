@@ -31,6 +31,11 @@
   flex-direction: column;
 }
 
+#body__contact {
+  display: flex;
+  flex-direction: column;
+}
+
 #menu__div {
   display: flex;
   flex-direction: row;
@@ -79,7 +84,7 @@
 }
 
 .footer a {
-  padding: 2%;
+  padding: 25px;
 }
 
 .footer i {
@@ -90,11 +95,28 @@
   color: rgb(202, 102, 44);
 }
 
+#menu__divServices {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .footerServices {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 35%;
+}
+
+.footerServices a {
+  padding: 25px;
+}
+
+.footerServices i {
+  color: aliceblue;
 }
 
 #title__div {
@@ -205,17 +227,48 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100% vw;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardTextServicesThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  margin-top: 10%;
 }
 
-.verMas {
-  margin-top: 2.5%;
+#fistPage__contact {
+  background-color: #000000;
+  height: auto;
 }
 
-.verMas a {
-  text-decoration: none;
-  color: #111826;
+#form__contact {
+  border: 0.1px solid white;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  padding: 12px;
+}
+
+#firstPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#secondPage__contact {
+  background-image: url(/root/assets/multimedia/images/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* TABLET *//*# sourceMappingURL=main.css.map */
