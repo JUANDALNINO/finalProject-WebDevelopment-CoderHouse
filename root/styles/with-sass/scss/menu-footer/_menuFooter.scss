@@ -95,3 +95,23 @@
 .footerServices i {
     color: aliceblue;
 }
+
+
+
+// Contact
+.footerContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-top: 8%;
+}
+
+.footerContact a {
+    padding: 25px;
+}
+
+.footerContact i {
+    color: aliceblue;
+}

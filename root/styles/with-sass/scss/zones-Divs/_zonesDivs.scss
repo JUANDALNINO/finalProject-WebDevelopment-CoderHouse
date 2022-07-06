@@ -121,7 +121,7 @@
     background-size: $background-size;
     background-repeat: $background-repeat;
     height: $height;
-    width: 100%vw;
+    width: 100vw;
 
     display: flex;
     flex-direction: column;
@@ -143,31 +143,49 @@
 
 // FirstPage Contact
 #fistPage__contact {
-    background-color: #000000;
-    height: auto;
+    height: 100vh;
+}
+
+#firstPart {
+    margin-top: 8%;
 }
 
 #form__contact {
     border: 0.1px solid white;
     border-radius: 3%;
+    padding: 15px;
+}
+
+.labelTextArea {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#textContact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: auto;
-    padding: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    color: antiquewhite;
 }
 
-#firstPart {
+.textContactP {
+    margin-top: 5%;
+}
+
+.form-check {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+label {
+    color: antiquewhite;
+}
+
+.buttonForm {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-// SecondPage Contact
-#secondPage__contact {
-    background-image: url(/root/assets/multimedia/images/contact.jpg);
-    background-size: $background-size;
-    background-repeat: $background-repeat;
-    height: $height;
 }

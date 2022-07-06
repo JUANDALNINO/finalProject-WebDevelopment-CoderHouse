@@ -43,4 +43,8 @@
 #body__contact {
     display: flex;
     flex-direction: column;
+    height: $height;
+    background-image: url(/root/assets/multimedia/images/contact.jpg);
+    background-size: $background-size;
+    background-repeat: $background-repeat;
 }
