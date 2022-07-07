@@ -62,11 +62,18 @@
     color: aliceblue;
 }
 
-.icon:hover {
-    color: rgb(202, 102, 44);
+
+.iconFace:hover {
+    color: #3b5998;
 }
 
+.iconInsta:hover {
+    color: #C13584;
+}
 
+.iconYou:hover {
+    color: #c4302b;
+}
 
 // Services -------------------------------------------------------------------------------------
 // Menu
@@ -104,7 +111,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 30%;
     margin-top: 8%;
 }
 

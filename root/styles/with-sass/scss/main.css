@@ -95,8 +95,16 @@
   color: aliceblue;
 }
 
-.icon:hover {
-  color: rgb(202, 102, 44);
+.iconFace:hover {
+  color: #3b5998;
+}
+
+.iconInsta:hover {
+  color: #C13584;
+}
+
+.iconYou:hover {
+  color: #c4302b;
 }
 
 #menu__divServices {
@@ -128,7 +136,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 30%;
   margin-top: 8%;
 }
 
@@ -158,7 +166,7 @@
 
 #fistPage__about {
   width: auto;
-  height: 90vh;
+  height: 85vh;
 }
 
 #myVideo {
@@ -189,10 +197,10 @@
   align-items: center;
 }
 
-.line {
+.lineAbout {
   width: 50px;
   height: 2px;
-  background-color: #F2E6A7;
+  background-color: #97303C;
   margin-bottom: 6%;
 }
 
@@ -212,6 +220,13 @@
 
 .cardTextServicesOne {
   padding-bottom: 20%;
+}
+
+.lineServices {
+  width: 50px;
+  height: 2px;
+  background-color: #16374A;
+  margin-bottom: 6%;
 }
 
 .cardTextServicesTwo {
@@ -241,6 +256,12 @@
 .card {
   margin: 2.5%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 4%;
+  background-color: rgb(117, 117, 117);
+}
+
+.card img {
+  border-radius: 4%;
 }
 
 #thirdPage__services {
@@ -275,6 +296,7 @@
   border: 0.1px solid white;
   border-radius: 3%;
   padding: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 .labelTextArea {
@@ -290,6 +312,13 @@
   text-align: center;
   padding: 120px;
   color: antiquewhite;
+}
+
+.lineContact {
+  width: 50px;
+  height: 2px;
+  background-color: #8C8274;
+  margin-bottom: 6%;
 }
 
 .textContactP {
