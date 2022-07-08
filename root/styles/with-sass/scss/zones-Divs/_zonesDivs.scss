@@ -163,6 +163,9 @@
 
 #firstPart {
     margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #form__contact {
@@ -170,6 +173,7 @@
     border-radius: 3%;
     padding: 15px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    width: 30%;
 }
 
 .labelTextArea {
@@ -180,11 +184,12 @@
 #textContact {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 120px;
     color: antiquewhite;
+    width: 30%;
+    padding-bottom: 12%;
 }
 
 .lineContact {

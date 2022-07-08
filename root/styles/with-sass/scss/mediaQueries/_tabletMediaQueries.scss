@@ -1,16 +1,60 @@
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
     // 01. LAYOUTS
+    // Contact
+    #body__contact {
+        display: flex;
+        flex-direction: column;
+        height: $height;
+        background-image: url(/root/assets/multimedia/images/contactTablet.jpg);
+        background-size: $background-size;
+        background-repeat: $background-repeat;
+    }
 
     // 02. MENU AND FOOTER
     // MENU
-    .menu__logo {
+    .logoResponsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6%;
+    }
+
+    .logoResponsive a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoResponsive a img {
+        width: 30%;
+    }
+
+    
+    .menu {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbar-brand {
         display: none;
     }
 
-    #menu__div {
-        display: none;
+    .navbar-nav {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
+
+    .navbar-expand-lg {
+        margin-bottom: 15%;
+    }
+
+    
 
     #menu__divAbout {
         display: none;
@@ -20,11 +64,17 @@
         display: none;
     }
 
+
     // 03. ZONES AND DIVS
     // HOME
     #title {
         font-size: 2.5em;
     }
+
+    #title__div {
+        bottom: 60%;
+    }
+
 
     // ABOUT
     .card__text h3 {
@@ -56,7 +106,18 @@
     // CONTACT
     #firstPart {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+    }
+
+    #textContact {
+        width: 50%;
+    }
+
+    #form__contact {
+        width: 50%;
     }
 
 }

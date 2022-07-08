@@ -1,22 +1,66 @@
 @media only screen and (max-width: 480px) {
+
     // 01. LAYOUTS
+    // Contact
+    #body__contact {
+        display: flex;
+        flex-direction: column;
+        height: $height;
+        background-image: url(/root/assets/multimedia/images/contactMobile.jpg);
+        background-size: $background-size;
+        background-repeat: $background-repeat;
+    }
 
     // 02. MENU AND FOOTER
-    // Footer
-    .footer {
-        height: 30%;
+    // Menu
+    .logoResponsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
     }
+
+    .logoResponsive a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoResponsive a img {
+        width: 30%;
+    }
+
+
 
     // MENU
     .menu__logo {
         display: none;
     }
 
-    #menu__div {
+    .menu {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbar-brand {
         display: none;
     }
 
-    #menu__divAbout{
+    .navbar-nav {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-expand-lg {
+        margin-bottom: 20%;
+    }
+
+    #menu__divAbout {
         display: none;
     }
 
@@ -24,14 +68,20 @@
         display: none;
     }
 
+    // Footer
+    .footer {
+        height: 30%;
+    }
+
     // 03. ZONES AND DIVS
     // HOME
+
     #title {
         font-size: 1.5em;
         letter-spacing: 1.8rem;
         margin-left: 2.8rem;
-        margin-top: 26rem;
         text-shadow: #111826 3px 3px 2px;
+        margin-top: 0rem;
     }
 
     // ABOUT
@@ -73,5 +123,22 @@
         width: 70%;
         text-align: center;
         margin-top: -20%;
+    }
+
+    // CONTACT
+    #firstPart {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50%;
+    }
+
+    #textContact {
+        width: 70%;
+    }
+
+    #form__contact {
+        width: 70%;
     }
 }
