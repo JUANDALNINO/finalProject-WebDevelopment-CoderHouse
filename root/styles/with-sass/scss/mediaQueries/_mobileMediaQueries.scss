@@ -1,3 +1,77 @@
-
 @media only screen and (max-width: 480px) {
+    // 01. LAYOUTS
+
+    // 02. MENU AND FOOTER
+    // Footer
+    .footer {
+        height: 30%;
+    }
+
+    // MENU
+    .menu__logo {
+        display: none;
+    }
+
+    #menu__div {
+        display: none;
+    }
+
+    #menu__divAbout{
+        display: none;
+    }
+
+    #menu__divServices {
+        display: none;
+    }
+
+    // 03. ZONES AND DIVS
+    // HOME
+    #title {
+        font-size: 1.5em;
+        letter-spacing: 1.8rem;
+        margin-left: 2.8rem;
+        margin-top: 26rem;
+        text-shadow: #111826 3px 3px 2px;
+    }
+
+    // ABOUT
+    .card__text h3 {
+        margin-bottom: 5%;
+    }
+
+    .shortText {
+        margin-top: 18%;
+        width: 70%;
+        text-align: center;
+    }
+
+    // SERVICES
+    .cardTextServicesOne {
+        padding-bottom: 0%;
+    }
+
+    .cardTextServicesOne h2 {
+        color: antiquewhite;
+    }
+
+    .cardTextServicesOne p {
+        color: antiquewhite;
+    }
+
+    #cards__services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 6%;
+    }
+
+    .cardTextServicesTwo h2 {
+        width: 70%;
+        text-align: center;
+        margin-top: -20%;
+    }
 }

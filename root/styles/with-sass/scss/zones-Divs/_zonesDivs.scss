@@ -52,6 +52,10 @@
     align-items: center;
 }
 
+.card__text h3 {
+    margin-bottom: 1.5%;
+}
+
 .lineAbout {
     width: 50px;
     height: 2px;
@@ -75,6 +79,7 @@
 
     display: flex;
     justify-content: center;
+
 }
 
 .cardTextServicesOne {
@@ -132,7 +137,6 @@
     background-size: $background-size;
     background-repeat: $background-repeat;
     height: $height;
-    width: 100vw;
 
     display: flex;
     flex-direction: column;
