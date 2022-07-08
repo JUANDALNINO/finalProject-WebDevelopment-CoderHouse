@@ -32,26 +32,35 @@
 
     <!--FistPage-->
     <div id="fistPage__services">
+
         <!--Menu-->
-        <div id="menu__divServices">
-            <div class="menu__divServices menu-btn">
-                <a href="/index.html">HOME</a>
+        <nav class="navbar navbar-expand-lg navbarServicesContainer">
+            <div class="container-fluid justify-content-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon iconService"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav navbarServices">
+                        <li class="nav-item menuServices">
+                            <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item menuServices">
+                            <a class="nav-link" href="/root/newPages/about.html">ABOUT</a>
+                        </li>
+                        <a class="navbar-brand menu__logoAbout" id="menu__logo" href="/index.html">
+                            <img src="/root/assets/logos/silver-logo.svg" />
+                        </a>
+                        <li class="nav-item menuServices">
+                            <a class="nav-link" href="/root/newPages/services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item menuServices menuContact">
+                            <a class="nav-link" href="/root/newPages/contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu__divServices">
-                <a href="./about.html">ABOUT</a>
-            </div>
-            <div id="menu__logo">
-                <a href="/index.html">
-                    <img src="/root/assets/logos/dark-logo.svg" alt="logo">
-                </a>
-            </div>
-            <div class="menu__divServices">
-                <a href="./services.html">SERVICES</a>
-            </div>
-            <div class="menu__divServices">
-                <a href="./contact.html">CONTACT</a>
-            </div>
-        </div>
+        </nav>
 
         <div class="card__text cardTextServicesOne">
             <h2>SOUND OF SILENCE</h2>
@@ -68,7 +77,10 @@
         <div class="cardTextServicesTwo">
             <h2>Calm, Connect and Create</h2>
             <div class="lineServices"></div>
-            <p class="shortText">Taking a vacation means different things to different people – while for some it may entail serious time for relaxation, to others it may be imperative to include some sort of physical activity. Over the last few years, we have witnessed a steep increase in the interest for exercise & wellness-oriented tourism.</p>
+            <p class="shortText">Taking a vacation means different things to different people – while for some it may
+                entail serious time for relaxation, to others it may be imperative to include some sort of physical
+                activity. Over the last few years, we have witnessed a steep increase in the interest for exercise &
+                wellness-oriented tourism.</p>
         </div>
 
         <!--Cards-->
@@ -92,7 +104,9 @@
     <div id="thirdPage__services">
 
         <div class="cardTextServicesThree">
-            <p class="shortText">When in silence, you get to listen to the waves breaking on the sand, the winds whistle blowing and the sea gulls flapping their wings…and then you get to listen to your own heartbeat being in sync with your surroundings. This is the moment…when magic happens!</p>
+            <p class="shortText">When in silence, you get to listen to the waves breaking on the sand, the winds whistle
+                blowing and the sea gulls flapping their wings…and then you get to listen to your own heartbeat being in
+                sync with your surroundings. This is the moment…when magic happens!</p>
         </div>
 
         <div class="footerServices">
@@ -102,6 +116,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

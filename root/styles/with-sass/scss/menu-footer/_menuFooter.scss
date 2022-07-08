@@ -5,7 +5,7 @@
 }
 
 
-.navbar-toggler-icon {
+.iCon {
     background-image: url(/root/assets/logos/list.svg);
     width: 100%;
 }
@@ -16,19 +16,20 @@
     width: 75px;
 }
 
-.menu {
+
+.menuHome {
     margin: 4.5em;
     width: 3em;
 }
 
-.menu a {
+.menuHome a {
     text-decoration: none;
     color: azure;
     text-shadow: #111826 2px 2px 2px;
     width: auto;
 }
 
-.menu a:hover {
+.menuHome a:hover {
     color: #EB8C3C;
     text-shadow: #111826 2px 2px 2px;
 }
@@ -48,7 +49,7 @@
 }
 
 
-.navbar-nav {
+.navbarHome {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,43 +58,89 @@
 
 
 
-
-
-
-
-
-
-// About
-#menu__divAbout {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-// SERVICES
+// ABOUT
 // Menu:
-#menu__divServices {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu__divServices {
+.menuAbout {
     margin: 4.5em;
     width: 3em;
 }
 
-.menu__divServices a {
+.menuAbout a {
     text-decoration: none;
-    color: #1b1c1d;
-    text-shadow: #616368 1px 1.3px 2px;
+    color: azure;
+    text-shadow: #111826 2px 2px 2px;
+    width: auto;
 }
 
+.menuAbout a:hover {
+    color: #97303C;
+    text-shadow: #111826 2px 2px 2px;
+}
+
+.navbarAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// SERVICES
+// Menu:
+.iconService {
+    background-image: url(/root/assets/logos/listDark.svg);
+    width: 100%;
+}
+
+.menuServices {
+    margin: 4.5em;
+    width: 3em;
+}
+
+.menuServices a {
+    text-decoration: none;
+    color: #262626;
+    text-shadow: #111826 1px 2px 3px;
+    width: auto;
+}
+
+.menuServices a:hover {
+    color: #9B6826;
+    text-shadow: #573a15 2px 2px 2px;
+}
+
+.navbarServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// CONTACT
+// Menu:
+.menuContact {
+    margin: 4.5em;
+    width: 3em;
+}
+
+.menuContact a {
+    text-decoration: none;
+    color: azure;
+    text-shadow: #111826 1px 2px 3px;
+    width: auto;
+}
+
+.menuContact a:hover {
+    color: #9B6826;
+    text-shadow: #111826 2px 2px 2px;
+}
+
+.navbarContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

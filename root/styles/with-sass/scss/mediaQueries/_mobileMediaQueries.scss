@@ -39,7 +39,7 @@
         display: none;
     }
 
-    .menu {
+    .menuHome {
         margin: 0.5em;
         width: auto;
     }
@@ -50,7 +50,7 @@
 
     .navbar-nav {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -60,13 +60,46 @@
         margin-bottom: 20%;
     }
 
-    #menu__divAbout {
-        display: none;
+    // ABOUT:
+    .menuAbout {
+        margin: 0.5em;
+        width: auto;
     }
 
-    #menu__divServices {
-        display: none;
+    .navbarAboutContainer {
+        margin-top: 10%;
     }
+
+
+    // SERVICES
+    .menuServices {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbarServices {
+        text-align: center;
+    }
+
+    .navbarServicesContainer {
+        margin-top: 20%;
+    }
+
+    // CONTACT
+    .menuContact {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbarContact {
+        text-align: center;
+    }
+
+    .navbarContactContainer {
+        margin-top: 15%;
+    }
+
+
 
     // Footer
     .footer {
@@ -79,7 +112,7 @@
     #title {
         font-size: 1.5em;
         letter-spacing: 1.8rem;
-        margin-left: 2.8rem;
+        margin-left: 2rem;
         text-shadow: #111826 3px 3px 2px;
         margin-top: 0rem;
     }
@@ -97,7 +130,7 @@
 
     // SERVICES
     .cardTextServicesOne {
-        padding-bottom: 0%;
+        padding-bottom: 35%;
     }
 
     .cardTextServicesOne h2 {
@@ -131,7 +164,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin-top: 50%;
+        margin-top: 30%;
     }
 
     #textContact {

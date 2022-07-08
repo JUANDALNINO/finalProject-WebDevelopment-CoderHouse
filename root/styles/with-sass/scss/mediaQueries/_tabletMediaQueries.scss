@@ -13,6 +13,7 @@
 
     // 02. MENU AND FOOTER
     // MENU
+    // HOME:
     .logoResponsive {
         display: flex;
         flex-direction: column;
@@ -32,8 +33,9 @@
         width: 30%;
     }
 
+
     
-    .menu {
+    .menuHome {
         margin: 0.5em;
         width: auto;
     }
@@ -44,27 +46,66 @@
 
     .navbar-nav {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .navbar-expand-lg {
+    .navbarHomeContainer {
         margin-bottom: 15%;
     }
 
+
+
+    // ABOUT:
+    .menuAbout {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbarAbout {
+        text-align: center;
+    }
+
+    .navbarAboutContainer {
+        margin-top: 10%;
+    }
+
+
+
+    // SERVICES
+    .menuServices {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbarServices {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .navbarServicesContainer {
+        margin-top: 15%;
+    }
+
+
+    // CONTACT
+    .menuContact {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    .navbarContact {
+        text-align: center;
+    }
+
+    .navbarContactContainer {
+        margin-top: 12%;
+    }
+
+
     
-
-    #menu__divAbout {
-        display: none;
-    }
-
-    #menu__divServices {
-        display: none;
-    }
-
-
     // 03. ZONES AND DIVS
     // HOME
     #title {
@@ -89,7 +130,7 @@
 
     // SERVICES
     .cardTextServicesOne {
-        padding-bottom: 70%;
+        margin-bottom: 85%;
     }
 
     #cards__services {

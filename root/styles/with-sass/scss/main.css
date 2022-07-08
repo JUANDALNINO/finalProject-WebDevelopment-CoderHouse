@@ -44,7 +44,7 @@
   display: none;
 }
 
-.navbar-toggler-icon {
+.iCon {
   background-image: url(/root/assets/logos/list.svg);
   width: 100%;
 }
@@ -55,19 +55,19 @@
   width: 75px;
 }
 
-.menu {
+.menuHome {
   margin: 4.5em;
   width: 3em;
 }
 
-.menu a {
+.menuHome a {
   text-decoration: none;
   color: azure;
   text-shadow: #111826 2px 2px 2px;
   width: auto;
 }
 
-.menu a:hover {
+.menuHome a:hover {
   color: #EB8C3C;
   text-shadow: #111826 2px 2px 2px;
 }
@@ -86,37 +86,88 @@
   opacity: 100%;
 }
 
-.navbar-nav {
+.navbarHome {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#menu__divAbout {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#menu__divServices {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu__divServices {
+.menuAbout {
   margin: 4.5em;
   width: 3em;
 }
 
-.menu__divServices a {
+.menuAbout a {
   text-decoration: none;
-  color: #1b1c1d;
-  text-shadow: #616368 1px 1.3px 2px;
+  color: azure;
+  text-shadow: #111826 2px 2px 2px;
+  width: auto;
+}
+
+.menuAbout a:hover {
+  color: #97303C;
+  text-shadow: #111826 2px 2px 2px;
+}
+
+.navbarAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconService {
+  background-image: url(/root/assets/logos/listDark.svg);
+  width: 100%;
+}
+
+.menuServices {
+  margin: 4.5em;
+  width: 3em;
+}
+
+.menuServices a {
+  text-decoration: none;
+  color: #262626;
+  text-shadow: #111826 1px 2px 3px;
+  width: auto;
+}
+
+.menuServices a:hover {
+  color: #9B6826;
+  text-shadow: #573a15 2px 2px 2px;
+}
+
+.navbarServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuContact {
+  margin: 4.5em;
+  width: 3em;
+}
+
+.menuContact a {
+  text-decoration: none;
+  color: azure;
+  text-shadow: #111826 1px 2px 3px;
+  width: auto;
+}
+
+.menuContact a:hover {
+  color: #9B6826;
+  text-shadow: #111826 2px 2px 2px;
+}
+
+.navbarContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -259,11 +310,12 @@
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .cardTextServicesOne {
-  padding-bottom: 20%;
+  margin-bottom: 36%;
 }
 
 .lineServices {
@@ -421,7 +473,7 @@ label {
     display: none;
   }
 
-  .menu {
+  .menuHome {
     margin: 0.5em;
     width: auto;
   }
@@ -432,7 +484,7 @@ label {
 
   .navbar-nav {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -442,12 +494,39 @@ label {
     margin-bottom: 20%;
   }
 
-  #menu__divAbout {
-    display: none;
+  .menuAbout {
+    margin: 0.5em;
+    width: auto;
   }
 
-  #menu__divServices {
-    display: none;
+  .navbarAboutContainer {
+    margin-top: 10%;
+  }
+
+  .menuServices {
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .navbarServices {
+    text-align: center;
+  }
+
+  .navbarServicesContainer {
+    margin-top: 20%;
+  }
+
+  .menuContact {
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .navbarContact {
+    text-align: center;
+  }
+
+  .navbarContactContainer {
+    margin-top: 15%;
   }
 
   .footer {
@@ -457,7 +536,7 @@ label {
   #title {
     font-size: 1.5em;
     letter-spacing: 1.8rem;
-    margin-left: 2.8rem;
+    margin-left: 2rem;
     text-shadow: #111826 3px 3px 2px;
     margin-top: 0rem;
   }
@@ -473,7 +552,7 @@ label {
   }
 
   .cardTextServicesOne {
-    padding-bottom: 0%;
+    padding-bottom: 35%;
   }
 
   .cardTextServicesOne h2 {
@@ -506,7 +585,7 @@ label {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 30%;
   }
 
   #textContact {
@@ -547,7 +626,7 @@ label {
     width: 30%;
   }
 
-  .menu {
+  .menuHome {
     margin: 0.5em;
     width: auto;
   }
@@ -558,22 +637,54 @@ label {
 
   .navbar-nav {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .navbar-expand-lg {
+  .navbarHomeContainer {
     margin-bottom: 15%;
   }
 
-  #menu__divAbout {
-    display: none;
+  .menuAbout {
+    margin: 0.5em;
+    width: auto;
   }
 
-  #menu__divServices {
-    display: none;
+  .navbarAbout {
+    text-align: center;
+  }
+
+  .navbarAboutContainer {
+    margin-top: 10%;
+  }
+
+  .menuServices {
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .navbarServices {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  .navbarServicesContainer {
+    margin-top: 15%;
+  }
+
+  .menuContact {
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .navbarContact {
+    text-align: center;
+  }
+
+  .navbarContactContainer {
+    margin-top: 12%;
   }
 
   #title {
@@ -595,7 +706,7 @@ label {
   }
 
   .cardTextServicesOne {
-    padding-bottom: 70%;
+    margin-bottom: 85%;
   }
 
   #cards__services {
